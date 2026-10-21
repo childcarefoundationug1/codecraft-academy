@@ -297,9 +297,12 @@ print("Hello", name)</code></pre>
                     feedback.textContent = "✅ " + current.success;
                     feedback.className = "quiz-correct";
                 } else {
-                    feedback.textContent =
-                        "❌ Incorrect. The correct answer is: " +
-                        current.options[current.answer] + ". " + current.success;
+                    feedback.innerHTML =
+                        "<strong>❌ Not quite! That's incorrect.</strong><br>" +
+                        "<strong>✅ Correct answer:</strong> " +
+                        escapeHTML(current.options[current.answer]) +
+                        "<br><strong>💡 Learn:</strong> " +
+                        escapeHTML(current.success);
                     feedback.className = "quiz-incorrect";
                 }
 
