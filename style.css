@@ -301,3 +301,45 @@ footer p:first-child {
         padding: 24px;
     }
 }
+
+
+/* CodeCraft Academy logo */
+.header .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-size: 1.15rem;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.header .logo img {
+    display: block;
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.header .logo .logo-text {
+    color: inherit;
+    margin-left: 0;
+}
+
+.header .logo .logo-text b {
+    color: var(--primary, #38bdf8);
+}
+
+@media (max-width: 480px) {
+    .header .logo {
+        gap: 7px;
+        font-size: 1rem;
+    }
+
+    .header .logo img {
+        width: 40px;
+        height: 40px;
+    }
+}
