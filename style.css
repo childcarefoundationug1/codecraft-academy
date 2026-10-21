@@ -1,0 +1,303 @@
+/* =================================
+   CODECRAFT ACADEMY
+   Main Website Styles
+================================= */
+
+:root {
+    --background: #07111f;
+    --surface: #101d30;
+    --primary: #38bdf8;
+    --secondary: #8b5cf6;
+    --text: #f1f5f9;
+    --muted: #a7b5c9;
+    --border: rgba(255, 255, 255, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 85px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--background);
+    color: var(--text);
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    min-height: 75px;
+    padding: 15px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: rgba(7, 17, 31, 0.96);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 1.25rem;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.logo span {
+    color: var(--primary);
+    margin-left: 5px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: var(--muted);
+    font-size: 0.92rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: var(--primary);
+}
+
+/* HERO SECTION */
+
+.hero {
+    min-height: 590px;
+    padding: 100px 7% 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background:
+        radial-gradient(ellipse at 85% 20%, rgba(139, 92, 246, 0.19), transparent 38%),
+        radial-gradient(ellipse at 15% 75%, rgba(56, 189, 248, 0.12), transparent 40%);
+}
+
+.tagline {
+    color: var(--primary);
+    font-size: 0.82rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.hero h1 {
+    font-size: clamp(2.5rem, 8vw, 5rem);
+    line-height: 1.12;
+    letter-spacing: -2px;
+    max-width: 850px;
+}
+
+.hero h1 span {
+    background: linear-gradient(90deg, #38bdf8, #a78bfa);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.description {
+    color: var(--muted);
+    max-width: 650px;
+    margin: 25px 0;
+    font-size: 1.05rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 13px 24px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #0284c7, #7c3aed);
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(56, 189, 248, 0.2);
+}
+
+.hero-note {
+    margin-top: 28px;
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+/* COURSES */
+
+.courses {
+    padding: 90px 7%;
+    background: #0a1626;
+    text-align: center;
+}
+
+.courses h2,
+.about h2,
+.contact h2 {
+    font-size: clamp(1.8rem, 5vw, 2.8rem);
+    line-height: 1.25;
+    margin-bottom: 15px;
+}
+
+.section-description {
+    color: var(--muted);
+    margin-bottom: 40px;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.course-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    padding: 28px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-6px);
+    border-color: var(--primary);
+}
+
+.course-icon {
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+}
+
+.course-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+}
+
+.course-card p {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+.level {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: var(--primary);
+    background: rgba(56, 189, 248, 0.1);
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+/* ABOUT */
+
+.about {
+    padding: 90px 7%;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about p:last-child {
+    color: var(--muted);
+    max-width: 720px;
+    margin: 20px auto 0;
+}
+
+/* CONTACT */
+
+.contact {
+    padding: 75px 7%;
+    text-align: center;
+    background: linear-gradient(135deg, #101d30, #11152c);
+}
+
+.contact p {
+    color: var(--muted);
+    margin: 15px 0 25px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 30px 7%;
+    text-align: center;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+
+footer p:first-child {
+    color: var(--text);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 800px) {
+    .course-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .header {
+        justify-content: center;
+        padding: 15px 5%;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 520px) {
+    .course-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        min-height: 520px;
+        padding: 70px 6%;
+    }
+
+    .hero h1 {
+        letter-spacing: -1px;
+    }
+
+    .courses,
+    .about,
+    .contact {
+        padding: 65px 6%;
+    }
+
+    .course-card {
+        padding: 24px;
+    }
+}
