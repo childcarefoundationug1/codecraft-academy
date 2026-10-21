@@ -610,3 +610,42 @@ footer p:first-child {
         padding: 22px 14px;
     }
 }
+
+/* Mobile-friendly scrolling for CodeCraft Academy */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 16px;
+    -webkit-overflow-scrolling: touch;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    touch-action: pan-y pinch-zoom;
+}
+
+section {
+    scroll-margin-top: 16px;
+}
+
+/* Keep natural touch scrolling on phones */
+@media (max-width: 768px) {
+    html,
+    body {
+        height: auto;
+        min-height: 100%;
+        overflow-y: auto;
+        scroll-snap-type: none;
+    }
+
+    section {
+        scroll-snap-align: none;
+    }
+
+    .hero,
+    .courses,
+    .about,
+    .contact {
+        min-height: auto;
+    }
+}
