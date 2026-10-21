@@ -343,3 +343,43 @@ footer p:first-child {
         height: 40px;
     }
 }
+
+/* CodeCraft Academy mission and motto improvements */
+.courses > h2,
+.about > h2,
+.contact > h2 {
+    text-align: center;
+}
+
+.academy-motto {
+    max-width: 850px;
+    margin: 35px auto 0;
+    padding: 30px 20px;
+    text-align: center;
+    border: 1px solid rgba(0, 200, 255, 0.3);
+    border-radius: 18px;
+    background: rgba(0, 200, 255, 0.07);
+}
+
+.academy-motto h2 {
+    margin: 10px 0;
+}
+
+.academy-motto p:last-child {
+    line-height: 1.8;
+}
+
+.course-card strong {
+    color: #00c8ff;
+}
+
+.course-card {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 520px) {
+    .academy-motto {
+        padding: 22px 15px;
+        margin-top: 25px;
+    }
+}
