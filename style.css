@@ -407,3 +407,106 @@ footer p:first-child {
     }
 }
 
+
+/* Interactive Learning Lab */
+.learning-dashboard {
+    max-width: 1100px;
+    margin: 45px auto;
+    padding: 28px 18px;
+}
+
+.learning-dashboard > h2,
+.learning-dashboard > .tagline,
+.learning-dashboard > .section-description {
+    text-align: center;
+}
+
+.learning-progress {
+    max-width: 700px;
+    margin: 25px auto;
+}
+
+.progress-track {
+    width: 100%;
+    height: 12px;
+    overflow: hidden;
+    border-radius: 20px;
+    background: rgba(128, 128, 128, 0.25);
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    border-radius: inherit;
+    background: #00c8ff;
+    transition: width 0.3s ease;
+}
+
+.learning-card .button,
+.lesson-quiz .button,
+.lesson-close {
+    margin-top: 15px;
+    cursor: pointer;
+    border: 0;
+}
+
+.lesson-viewer {
+    margin: 30px auto 0;
+    padding: 24px;
+    max-width: 850px;
+    border: 1px solid rgba(0, 200, 255, 0.35);
+    border-radius: 18px;
+    background: rgba(0, 200, 255, 0.05);
+    overflow-wrap: anywhere;
+}
+
+.lesson-viewer[hidden] {
+    display: none;
+}
+
+.lesson-content {
+    line-height: 1.8;
+}
+
+.lesson-viewer pre {
+    padding: 16px;
+    overflow-x: auto;
+    border-radius: 10px;
+    background: #071326;
+    color: #e8f5ff;
+}
+
+.quiz-option {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 12px 0;
+    padding: 12px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.quiz-option input {
+    margin-top: 5px;
+}
+
+.quiz-correct {
+    color: #159447;
+    font-weight: bold;
+}
+
+.quiz-incorrect {
+    color: #dc4545;
+    font-weight: bold;
+}
+
+@media (max-width: 520px) {
+    .learning-dashboard {
+        padding: 20px 12px;
+    }
+
+    .lesson-viewer {
+        padding: 17px;
+    }
+}
