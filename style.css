@@ -510,3 +510,103 @@ footer p:first-child {
         padding: 17px;
     }
 }
+
+/* CodeCraft Academy — Achievements Upgrade */
+.achievements-panel {
+    max-width: 1100px;
+    margin: 32px auto 55px;
+    padding: 28px 18px;
+    border: 1px solid rgba(0, 200, 255, 0.22);
+    border-radius: 22px;
+    background: linear-gradient(
+        145deg,
+        rgba(0, 200, 255, 0.07),
+        rgba(128, 100, 255, 0.06)
+    );
+}
+
+.achievements-panel > .tagline,
+.achievements-panel > h2,
+.achievements-description,
+.achievement-summary {
+    text-align: center;
+}
+
+.achievements-description {
+    max-width: 620px;
+    margin: 12px auto 24px;
+    line-height: 1.7;
+}
+
+.achievement-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.achievement-card {
+    padding: 22px 16px;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 16px;
+    background: rgba(128, 128, 128, 0.06);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.achievement-card.is-unlocked {
+    border-color: #00c8ff;
+    background: rgba(0, 200, 255, 0.09);
+}
+
+.achievement-card.is-unlocked:hover {
+    transform: translateY(-3px);
+}
+
+.achievement-icon {
+    margin-bottom: 12px;
+    font-size: 2.5rem;
+}
+
+.achievement-card h3 {
+    margin: 8px 0;
+}
+
+.achievement-card p {
+    line-height: 1.6;
+}
+
+.achievement-status {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 7px 12px;
+    border-radius: 30px;
+    background: rgba(128, 128, 128, 0.12);
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.achievement-card.is-unlocked .achievement-status {
+    color: #087f48;
+    background: rgba(30, 190, 110, 0.13);
+}
+
+.achievement-summary {
+    margin: 24px 0 0;
+    font-weight: 700;
+}
+
+@media (max-width: 650px) {
+    .achievement-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .achievement-card {
+        padding: 20px 16px;
+    }
+
+    .achievements-panel {
+        margin: 25px 12px 40px;
+        padding: 22px 14px;
+    }
+}

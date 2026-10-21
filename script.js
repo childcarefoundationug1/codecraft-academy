@@ -247,7 +247,97 @@ print("Hello", name)</code></pre>
         })[character]);
     }
 
+
+    function renderAchievements() {
+        const dashboard = document.getElementById("learning-dashboard");
+        if (!dashboard) return;
+
+        let panel = document.getElementById("achievements-panel");
+
+        if (!panel) {
+            panel = document.createElement("section");
+            panel.id = "achievements-panel";
+            panel.className = "achievements-panel";
+            panel.setAttribute("aria-labelledby", "achievements-title");
+            panel.innerHTML = `
+                <p class="tagline">CELEBRATE YOUR PROGRESS</p>
+                <h2 id="achievements-title">🏆 Your Achievements</h2>
+                <p class="achievements-description">
+                    Every lesson you complete brings you closer to your goals.
+                    Keep learning and collect your badges!
+                </p>
+                <div class="achievement-grid">
+                    <article class="achievement-card" data-badge="first">
+                        <div class="achievement-icon" aria-hidden="true">🌱</div>
+                        <h3>First Steps</h3>
+                        <p>Complete your first lesson.</p>
+                        <span class="achievement-status"></span>
+                    </article>
+                    <article class="achievement-card" data-badge="rising">
+                        <div class="achievement-icon" aria-hidden="true">🔥</div>
+                        <h3>Rising Developer</h3>
+                        <p>Complete two lessons.</p>
+                        <span class="achievement-status"></span>
+                    </article>
+                    <article class="achievement-card" data-badge="champion">
+                        <div class="achievement-icon" aria-hidden="true">👑</div>
+                        <h3>Learning Champion</h3>
+                        <p>Complete all three current lessons.</p>
+                        <span class="achievement-status"></span>
+                    </article>
+                </div>
+                <p id="achievement-summary" class="achievement-summary"
+                   role="status" aria-live="polite"></p>
+            `;
+
+            dashboard.insertAdjacentElement("afterend", panel);
+        }
+
+        let progress = {};
+
+        try {
+            progress = JSON.parse(
+                localStorage.getItem("codecraft-academy-progress-v1") || "{}"
+            ) || {};
+        } catch (error) {
+            console.warn("Could not read saved learning progress.", error);
+        }
+
+        const lessonIds = ["python", "web", "software"];
+        const completedCount = lessonIds.filter(
+            id => progress[id] && progress[id].completed
+        ).length;
+
+        const unlocked = {
+            first: completedCount >= 1,
+            rising: completedCount >= 2,
+            champion: completedCount >= 3
+        };
+
+        panel.querySelectorAll(".achievement-card").forEach(card => {
+            const isUnlocked = unlocked[card.dataset.badge];
+            card.classList.toggle("is-unlocked", isUnlocked);
+
+            const status = card.querySelector(".achievement-status");
+            status.textContent = isUnlocked ? "✓ Unlocked" : "🔒 Locked";
+        });
+
+        const summary = panel.querySelector("#achievement-summary");
+        summary.textContent =
+            `${Object.values(unlocked).filter(Boolean).length} of 3 achievements unlocked. ` +
+            `${completedCount} of ${lessonIds.length} lessons completed.`;
+    }
+
+
     renderLearningArea();
+    renderAchievements();
+
+    // Refresh achievements after quiz submissions, including saved progress.
+    document.addEventListener("submit", event => {
+        if (event.target && event.target.id === "quiz-form") {
+            setTimeout(renderAchievements, 0);
+        }
+    });
 
     console.log("CodeCraft Academy learning system is ready.");
 });
