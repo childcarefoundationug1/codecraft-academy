@@ -182,58 +182,197 @@ print("Hello", name)</code></pre>
         const viewer = document.getElementById("lesson-viewer");
         if (!viewer) return;
 
+        const extraQuestions = {
+            python: [
+                {
+                    question: "Which symbol starts a comment in Python?",
+                    options: ["//", "#", "<!--"],
+                    answer: 1,
+                    success: "Correct! Python comments begin with #."
+                },
+                {
+                    question: "Which function displays text in Python?",
+                    options: ["show()", "echo()", "print()"],
+                    answer: 2,
+                    success: "Correct! print() displays output."
+                }
+            ],
+            web: [
+                {
+                    question: "Which HTML element creates a link?",
+                    options: ["<a>", "<linktext>", "<href>"],
+                    answer: 0,
+                    success: "Correct! The a element creates a link."
+                },
+                {
+                    question: "Which language styles a web page?",
+                    options: ["CSS", "Python", "SQL"],
+                    answer: 0,
+                    success: "Correct! CSS controls a web page's appearance."
+                }
+            ],
+            software: [
+                {
+                    question: "What is a variable commonly used for?",
+                    options: [
+                        "Storing data",
+                        "Cleaning a screen",
+                        "Connecting a keyboard"
+                    ],
+                    answer: 0,
+                    success: "Correct! Variables store values."
+                },
+                {
+                    question: "What should developers do after writing code?",
+                    options: [
+                        "Never check it",
+                        "Test it",
+                        "Always delete it"
+                    ],
+                    answer: 1,
+                    success: "Correct! Testing helps developers find problems."
+                }
+            ]
+        };
+
+        const questions = [
+            {
+                question: lesson.question,
+                options: lesson.options,
+                answer: lesson.answer,
+                success: lesson.success
+            },
+            ...(extraQuestions[lesson.id] || [])
+        ];
+
+        let questionIndex = 0;
+        let score = 0;
+        let answered = false;
+        let timer = null;
+
         viewer.hidden = false;
-        viewer.innerHTML = `
-            <h2>${lesson.icon} ${lesson.title}</h2>
-            <div class="lesson-content">${lesson.explanation}</div>
-            <div class="lesson-quiz">
-                <h3>Quick Quiz</h3>
-                <p>${lesson.question}</p>
-                <form id="quiz-form">
-                    ${lesson.options.map((option, index) => `
-                        <label class="quiz-option">
-                            <input type="radio" name="answer" value="${index}" required>
-                            <span>${escapeHTML(option)}</span>
-                        </label>
-                    `).join("")}
-                    <button class="button" type="submit">Check Answer</button>
-                </form>
-                <p id="quiz-feedback" role="status" aria-live="polite"></p>
-            </div>
-            <button class="button lesson-close" type="button">Close Lesson</button>
-        `;
 
-        viewer.querySelector("#quiz-form").addEventListener("submit", event => {
-            event.preventDefault();
-            const chosen = Number(new FormData(event.currentTarget).get("answer"));
-            const feedback = viewer.querySelector("#quiz-feedback");
+        function renderQuestion() {
+            answered = false;
+            const current = questions[questionIndex];
 
-            if (chosen === lesson.answer) {
-                feedback.textContent = lesson.success;
-                feedback.className = "quiz-correct";
+            viewer.innerHTML = `
+                <h2>${lesson.icon} ${escapeHTML(lesson.title)}</h2>
+                <div class="lesson-content">${lesson.explanation}</div>
+                <div class="lesson-quiz">
+                    <h3>Quick Quiz</h3>
+                    <p>Question ${questionIndex + 1} of ${questions.length}</p>
+                    <div class="progress-track">
+                        <div class="progress-bar"
+                             style="width: ${(questionIndex + 1) / questions.length * 100}%"></div>
+                    </div>
+                    <p class="quiz-question">${escapeHTML(current.question)}</p>
+                    <form id="quiz-form">
+                        ${current.options.map((option, index) => `
+                            <label class="quiz-option">
+                                <input type="radio" name="answer"
+                                       value="${index}" required>
+                                <span>${escapeHTML(option)}</span>
+                            </label>
+                        `).join("")}
+                        <button class="button" type="submit">Check Answer</button>
+                    </form>
+                    <p id="quiz-feedback" role="status" aria-live="polite"></p>
+                </div>
+                <button class="button lesson-close" type="button">Close Lesson</button>
+            `;
 
-                const progress = readProgress();
-                progress[lesson.id] = {
-                    completed: true,
-                    completedAt: new Date().toISOString()
-                };
+            viewer.querySelector("#quiz-form").addEventListener("submit", event => {
+                event.preventDefault();
+                if (answered) return;
+                answered = true;
 
-                if (!saveProgress(progress)) {
-                    feedback.textContent +=
-                        " Your browser could not save progress on this device.";
+                const form = event.currentTarget;
+                const chosen = Number(new FormData(form).get("answer"));
+                const feedback = viewer.querySelector("#quiz-feedback");
+                const isCorrect = chosen === current.answer;
+
+                if (isCorrect) {
+                    score++;
+                    feedback.textContent = "✅ " + current.success;
+                    feedback.className = "quiz-correct";
+                } else {
+                    feedback.textContent =
+                        "❌ Incorrect. The correct answer is: " +
+                        current.options[current.answer] + ". " + current.success;
+                    feedback.className = "quiz-incorrect";
                 }
 
-                updateProgress();
-            } else {
-                feedback.textContent = "Not quite. Review the lesson and try again.";
-                feedback.className = "quiz-incorrect";
+                form.querySelectorAll("input, button").forEach(control => {
+                    control.disabled = true;
+                });
+
+                if (questionIndex < questions.length - 1) {
+                    feedback.textContent += " Next question coming up...";
+                    timer = setTimeout(() => {
+                        questionIndex++;
+                        renderQuestion();
+                    }, 1500);
+                } else {
+                    timer = setTimeout(finishQuiz, 1500);
+                }
+            });
+
+            viewer.querySelector(".lesson-close").addEventListener("click", closeLesson);
+        }
+
+        function finishQuiz() {
+            const percentage = Math.round(score / questions.length * 100);
+
+            viewer.innerHTML = `
+                <h2>🎉 Quiz Complete!</h2>
+                <div class="lesson-quiz">
+                    <h3>${escapeHTML(lesson.title)}</h3>
+                    <p class="${score === questions.length ? "quiz-correct" : "quiz-incorrect"}"
+                       role="status" aria-live="polite">
+                        Your score: ${score} out of ${questions.length} (${percentage}%)
+                    </p>
+                    <p>${score === questions.length
+                        ? "🏆 Perfect score! Excellent work!"
+                        : "👏 Good effort! Review the lesson and try again."}</p>
+                    <button class="button" id="retry-quiz" type="button">Try Again</button>
+                </div>
+                <button class="button lesson-close" type="button">Close Lesson</button>
+            `;
+
+            const progress = readProgress();
+            progress[lesson.id] = {
+                completed: true,
+                completedAt: new Date().toISOString(),
+                score: score,
+                totalQuestions: questions.length
+            };
+
+            if (!saveProgress(progress)) {
+                const warning = document.createElement("p");
+                warning.textContent = "Progress could not be saved on this device.";
+                viewer.querySelector(".lesson-quiz").appendChild(warning);
             }
-        });
 
-        viewer.querySelector(".lesson-close").addEventListener("click", () => {
+            updateProgress();
+            renderAchievements();
+
+            viewer.querySelector("#retry-quiz").addEventListener("click", () => {
+                clearTimeout(timer);
+                questionIndex = 0;
+                score = 0;
+                renderQuestion();
+            });
+
+            viewer.querySelector(".lesson-close").addEventListener("click", closeLesson);
+        }
+
+        function closeLesson() {
+            clearTimeout(timer);
             viewer.hidden = true;
-        });
+        }
 
+        renderQuestion();
         viewer.scrollIntoView({ behavior: "smooth", block: "start" });
     }
 
