@@ -649,3 +649,108 @@ section {
         min-height: auto;
     }
 }
+
+
+/* CodeCraft Academy mobile navigation upgrade */
+.menu-toggle {
+    display: none;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 21px;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--text);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.menu-toggle:focus-visible,
+.primary-navigation a:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 4px;
+}
+
+@media (max-width: 650px) {
+    .header {
+        position: sticky;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 12px;
+        padding: 12px 5%;
+    }
+
+    .header .logo {
+        max-width: calc(100% - 60px);
+        font-size: 1rem;
+        gap: 7px;
+    }
+
+    .header .logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu-toggle {
+        display: flex;
+        flex-shrink: 0;
+    }
+
+    .primary-navigation {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding-top: 8px;
+        border-top: 1px solid var(--border);
+    }
+
+    .primary-navigation.is-open {
+        display: flex;
+    }
+
+    .primary-navigation a {
+        display: block;
+        padding: 12px 10px;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+
+    .primary-navigation a:hover {
+        background: var(--surface);
+    }
+
+    .menu-toggle[aria-expanded="true"] span:first-child {
+        transform: translateY(7px) rotate(45deg);
+    }
+
+    .menu-toggle[aria-expanded="true"] span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle[aria-expanded="true"] span:last-child {
+        transform: translateY(-7px) rotate(-45deg);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .menu-toggle span {
+        transition: none;
+    }
+}

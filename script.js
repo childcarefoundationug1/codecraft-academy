@@ -483,3 +483,56 @@ print("Hello", name)</code></pre>
 
     console.log("CodeCraft Academy learning system is ready.");
 });
+
+
+/* CodeCraft Academy mobile navigation behavior */
+{
+    const menuButton = document.querySelector(".menu-toggle");
+    const navigation = document.getElementById("primary-navigation");
+
+    if (menuButton && navigation && !menuButton.dataset.initialized) {
+        menuButton.dataset.initialized = "true";
+
+        function closeNavigation() {
+            navigation.classList.remove("is-open");
+            menuButton.setAttribute("aria-expanded", "false");
+            menuButton.setAttribute("aria-label", "Open navigation menu");
+        }
+
+        menuButton.addEventListener("click", () => {
+            const opening =
+                menuButton.getAttribute("aria-expanded") !== "true";
+
+            navigation.classList.toggle("is-open", opening);
+            menuButton.setAttribute("aria-expanded", String(opening));
+            menuButton.setAttribute(
+                "aria-label",
+                opening ? "Close navigation menu" : "Open navigation menu"
+            );
+        });
+
+        navigation.querySelectorAll('a[href^="#"]').forEach(link => {
+            link.addEventListener("click", closeNavigation);
+        });
+
+        document.addEventListener("keydown", event => {
+            if (event.key === "Escape") {
+                closeNavigation();
+            }
+        });
+
+        document.addEventListener("click", event => {
+            if (
+                menuButton.getAttribute("aria-expanded") === "true" &&
+                !navigation.contains(event.target) &&
+                !menuButton.contains(event.target)
+            ) {
+                closeNavigation();
+            }
+        });
+
+        window.addEventListener("resize", () => {
+            if (window.innerWidth > 650) closeNavigation();
+        });
+    }
+}
