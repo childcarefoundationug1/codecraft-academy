@@ -1,0 +1,2913 @@
+{
+  "title": "CodeCraft Academy Master Curriculum",
+  "version": 1,
+  "status": "curriculum-map-draft",
+  "notes": [
+    "This file defines the initial course and lesson structure.",
+    "Lesson content must be developed and reviewed before a course is described as fully complete.",
+    "Security testing and ethical hacking exercises must be limited to explicitly authorized systems and isolated training labs."
+  ],
+  "courses": [
+    {
+      "id": "introduction-to-programming",
+      "title": "Introduction to Programming",
+      "modules": [
+        {
+          "id": "introduction-to-programming-module-1",
+          "title": "Understanding Programming",
+          "lessons": [
+            {
+              "id": "introduction-to-programming-module-1-lesson-1",
+              "title": "What Programming Is",
+              "status": "planned"
+            },
+            {
+              "id": "introduction-to-programming-module-1-lesson-2",
+              "title": "How Computers Execute Instructions",
+              "status": "planned"
+            },
+            {
+              "id": "introduction-to-programming-module-1-lesson-3",
+              "title": "Algorithms and Problem-Solving",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "introduction-to-programming-module-2",
+          "title": "Writing Your First Programs",
+          "lessons": [
+            {
+              "id": "introduction-to-programming-module-2-lesson-1",
+              "title": "Your First Program",
+              "status": "planned"
+            },
+            {
+              "id": "introduction-to-programming-module-2-lesson-2",
+              "title": "Variables and Data Types",
+              "status": "planned"
+            },
+            {
+              "id": "introduction-to-programming-module-2-lesson-3",
+              "title": "Operators and Calculations",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "introduction-to-programming-module-3",
+          "title": "Controlling Programs",
+          "lessons": [
+            {
+              "id": "introduction-to-programming-module-3-lesson-1",
+              "title": "Conditions and Decisions",
+              "status": "planned"
+            },
+            {
+              "id": "introduction-to-programming-module-3-lesson-2",
+              "title": "Loops and Repetition",
+              "status": "planned"
+            },
+            {
+              "id": "introduction-to-programming-module-3-lesson-3",
+              "title": "Functions",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "introduction-to-programming-module-4",
+          "title": "Building a Project",
+          "lessons": [
+            {
+              "id": "introduction-to-programming-module-4-lesson-1",
+              "title": "Plan a Mini-Project",
+              "status": "planned"
+            },
+            {
+              "id": "introduction-to-programming-module-4-lesson-2",
+              "title": "Build and Test Your Program",
+              "status": "planned"
+            },
+            {
+              "id": "introduction-to-programming-module-4-lesson-3",
+              "title": "Review and Improve Your Code",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "programming-fundamentals",
+      "title": "Programming Fundamentals",
+      "modules": [
+        {
+          "id": "programming-fundamentals-module-1",
+          "title": "Core Programming Concepts",
+          "lessons": [
+            {
+              "id": "programming-fundamentals-module-1-lesson-1",
+              "title": "Variables and Constants",
+              "status": "planned"
+            },
+            {
+              "id": "programming-fundamentals-module-1-lesson-2",
+              "title": "Data Types and Type Conversion",
+              "status": "planned"
+            },
+            {
+              "id": "programming-fundamentals-module-1-lesson-3",
+              "title": "Operators and Expressions",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "programming-fundamentals-module-2",
+          "title": "Control Flow",
+          "lessons": [
+            {
+              "id": "programming-fundamentals-module-2-lesson-1",
+              "title": "Conditional Statements",
+              "status": "planned"
+            },
+            {
+              "id": "programming-fundamentals-module-2-lesson-2",
+              "title": "Loops and Iteration",
+              "status": "planned"
+            },
+            {
+              "id": "programming-fundamentals-module-2-lesson-3",
+              "title": "Nested Control Structures",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "programming-fundamentals-module-3",
+          "title": "Functions and Data Structures",
+          "lessons": [
+            {
+              "id": "programming-fundamentals-module-3-lesson-1",
+              "title": "Functions and Parameters",
+              "status": "planned"
+            },
+            {
+              "id": "programming-fundamentals-module-3-lesson-2",
+              "title": "Lists and Collections",
+              "status": "planned"
+            },
+            {
+              "id": "programming-fundamentals-module-3-lesson-3",
+              "title": "Scope and Modular Code",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "programming-fundamentals-module-4",
+          "title": "Problem Solving",
+          "lessons": [
+            {
+              "id": "programming-fundamentals-module-4-lesson-1",
+              "title": "Debugging Techniques",
+              "status": "planned"
+            },
+            {
+              "id": "programming-fundamentals-module-4-lesson-2",
+              "title": "Algorithm Design",
+              "status": "planned"
+            },
+            {
+              "id": "programming-fundamentals-module-4-lesson-3",
+              "title": "Build a Small Application",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-literacy-and-computer-fundamentals",
+      "title": "Digital Literacy and Computer Fundamentals",
+      "modules": [
+        {
+          "id": "digital-literacy-and-computer-fundamentals-module-1",
+          "title": "Computer Foundations",
+          "lessons": [
+            {
+              "id": "digital-literacy-and-computer-fundamentals-module-1-lesson-1",
+              "title": "Computer Components",
+              "status": "planned"
+            },
+            {
+              "id": "digital-literacy-and-computer-fundamentals-module-1-lesson-2",
+              "title": "Hardware and Software",
+              "status": "planned"
+            },
+            {
+              "id": "digital-literacy-and-computer-fundamentals-module-1-lesson-3",
+              "title": "Operating Systems",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "digital-literacy-and-computer-fundamentals-module-2",
+          "title": "Files and Productivity",
+          "lessons": [
+            {
+              "id": "digital-literacy-and-computer-fundamentals-module-2-lesson-1",
+              "title": "Files and Folders",
+              "status": "planned"
+            },
+            {
+              "id": "digital-literacy-and-computer-fundamentals-module-2-lesson-2",
+              "title": "Documents and Spreadsheets",
+              "status": "planned"
+            },
+            {
+              "id": "digital-literacy-and-computer-fundamentals-module-2-lesson-3",
+              "title": "Managing Storage",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "digital-literacy-and-computer-fundamentals-module-3",
+          "title": "Internet and Communication",
+          "lessons": [
+            {
+              "id": "digital-literacy-and-computer-fundamentals-module-3-lesson-1",
+              "title": "How the Internet Works",
+              "status": "planned"
+            },
+            {
+              "id": "digital-literacy-and-computer-fundamentals-module-3-lesson-2",
+              "title": "Browsers and Email",
+              "status": "planned"
+            },
+            {
+              "id": "digital-literacy-and-computer-fundamentals-module-3-lesson-3",
+              "title": "Online Collaboration",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "digital-literacy-and-computer-fundamentals-module-4",
+          "title": "Digital Safety",
+          "lessons": [
+            {
+              "id": "digital-literacy-and-computer-fundamentals-module-4-lesson-1",
+              "title": "Passwords and Authentication",
+              "status": "planned"
+            },
+            {
+              "id": "digital-literacy-and-computer-fundamentals-module-4-lesson-2",
+              "title": "Privacy and Scams",
+              "status": "planned"
+            },
+            {
+              "id": "digital-literacy-and-computer-fundamentals-module-4-lesson-3",
+              "title": "Backups and Responsible Technology Use",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer-tools-phone-and-computer",
+      "title": "Developer Tools: Phones and Computers",
+      "modules": [
+        {
+          "id": "developer-tools-phone-and-computer-module-1",
+          "title": "Development Environments",
+          "lessons": [
+            {
+              "id": "developer-tools-phone-and-computer-module-1-lesson-1",
+              "title": "Choosing a Development Device",
+              "status": "planned"
+            },
+            {
+              "id": "developer-tools-phone-and-computer-module-1-lesson-2",
+              "title": "Terminal and Command-Line Basics",
+              "status": "planned"
+            },
+            {
+              "id": "developer-tools-phone-and-computer-module-1-lesson-3",
+              "title": "Editors and IDEs",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "developer-tools-phone-and-computer-module-2",
+          "title": "Setting Up Tools",
+          "lessons": [
+            {
+              "id": "developer-tools-phone-and-computer-module-2-lesson-1",
+              "title": "Android Termux Setup",
+              "status": "planned"
+            },
+            {
+              "id": "developer-tools-phone-and-computer-module-2-lesson-2",
+              "title": "Windows, macOS and Linux Tools",
+              "status": "planned"
+            },
+            {
+              "id": "developer-tools-phone-and-computer-module-2-lesson-3",
+              "title": "Mobile and Cloud Development Options",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "developer-tools-phone-and-computer-module-3",
+          "title": "Version Control",
+          "lessons": [
+            {
+              "id": "developer-tools-phone-and-computer-module-3-lesson-1",
+              "title": "Git Fundamentals",
+              "status": "planned"
+            },
+            {
+              "id": "developer-tools-phone-and-computer-module-3-lesson-2",
+              "title": "Repositories and Branches",
+              "status": "planned"
+            },
+            {
+              "id": "developer-tools-phone-and-computer-module-3-lesson-3",
+              "title": "Commits and Remote Repositories",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "developer-tools-phone-and-computer-module-4",
+          "title": "Build and Deploy",
+          "lessons": [
+            {
+              "id": "developer-tools-phone-and-computer-module-4-lesson-1",
+              "title": "Package Managers",
+              "status": "planned"
+            },
+            {
+              "id": "developer-tools-phone-and-computer-module-4-lesson-2",
+              "title": "Testing and Debugging Tools",
+              "status": "planned"
+            },
+            {
+              "id": "developer-tools-phone-and-computer-module-4-lesson-3",
+              "title": "Deploying and Maintaining a Project",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "python-programming",
+      "title": "Python Programming",
+      "modules": [
+        {
+          "id": "python-programming-module-1",
+          "title": "Python Foundations",
+          "lessons": [
+            {
+              "id": "python-programming-module-1-lesson-1",
+              "title": "Install Python and Choose an Editor",
+              "status": "planned"
+            },
+            {
+              "id": "python-programming-module-1-lesson-2",
+              "title": "Syntax and Variables",
+              "status": "planned"
+            },
+            {
+              "id": "python-programming-module-1-lesson-3",
+              "title": "Input, Output and Data Types",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "python-programming-module-2",
+          "title": "Control Flow and Functions",
+          "lessons": [
+            {
+              "id": "python-programming-module-2-lesson-1",
+              "title": "Conditions",
+              "status": "planned"
+            },
+            {
+              "id": "python-programming-module-2-lesson-2",
+              "title": "Loops",
+              "status": "planned"
+            },
+            {
+              "id": "python-programming-module-2-lesson-3",
+              "title": "Functions and Modules",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "python-programming-module-3",
+          "title": "Working with Data",
+          "lessons": [
+            {
+              "id": "python-programming-module-3-lesson-1",
+              "title": "Lists, Tuples and Dictionaries",
+              "status": "planned"
+            },
+            {
+              "id": "python-programming-module-3-lesson-2",
+              "title": "Strings and File Handling",
+              "status": "planned"
+            },
+            {
+              "id": "python-programming-module-3-lesson-3",
+              "title": "Exceptions and Validation",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "python-programming-module-4",
+          "title": "Practical Python",
+          "lessons": [
+            {
+              "id": "python-programming-module-4-lesson-1",
+              "title": "Using Libraries and Virtual Environments",
+              "status": "planned"
+            },
+            {
+              "id": "python-programming-module-4-lesson-2",
+              "title": "Testing and Debugging",
+              "status": "planned"
+            },
+            {
+              "id": "python-programming-module-4-lesson-3",
+              "title": "Build a Python Application",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "web-development-fundamentals",
+      "title": "Web Development Fundamentals",
+      "modules": [
+        {
+          "id": "web-development-fundamentals-module-1",
+          "title": "How Websites Work",
+          "lessons": [
+            {
+              "id": "web-development-fundamentals-module-1-lesson-1",
+              "title": "Browsers, Servers and HTTP",
+              "status": "planned"
+            },
+            {
+              "id": "web-development-fundamentals-module-1-lesson-2",
+              "title": "HTML Document Structure",
+              "status": "planned"
+            },
+            {
+              "id": "web-development-fundamentals-module-1-lesson-3",
+              "title": "Semantic HTML and Accessibility",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "web-development-fundamentals-module-2",
+          "title": "Styling Interfaces",
+          "lessons": [
+            {
+              "id": "web-development-fundamentals-module-2-lesson-1",
+              "title": "CSS Selectors and Layout",
+              "status": "planned"
+            },
+            {
+              "id": "web-development-fundamentals-module-2-lesson-2",
+              "title": "Responsive Design",
+              "status": "planned"
+            },
+            {
+              "id": "web-development-fundamentals-module-2-lesson-3",
+              "title": "Accessible Visual Design",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "web-development-fundamentals-module-3",
+          "title": "JavaScript",
+          "lessons": [
+            {
+              "id": "web-development-fundamentals-module-3-lesson-1",
+              "title": "Variables and Functions",
+              "status": "planned"
+            },
+            {
+              "id": "web-development-fundamentals-module-3-lesson-2",
+              "title": "DOM and Events",
+              "status": "planned"
+            },
+            {
+              "id": "web-development-fundamentals-module-3-lesson-3",
+              "title": "Forms and Client-Side Validation",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "web-development-fundamentals-module-4",
+          "title": "Publish a Website",
+          "lessons": [
+            {
+              "id": "web-development-fundamentals-module-4-lesson-1",
+              "title": "Git and Project Structure",
+              "status": "planned"
+            },
+            {
+              "id": "web-development-fundamentals-module-4-lesson-2",
+              "title": "Testing and Browser Developer Tools",
+              "status": "planned"
+            },
+            {
+              "id": "web-development-fundamentals-module-4-lesson-3",
+              "title": "Deployment and Maintenance",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "networking-fundamentals",
+      "title": "Networking Fundamentals",
+      "modules": [
+        {
+          "id": "networking-fundamentals-module-1",
+          "title": "Network Foundations",
+          "lessons": [
+            {
+              "id": "networking-fundamentals-module-1-lesson-1",
+              "title": "Network Types and Topologies",
+              "status": "planned"
+            },
+            {
+              "id": "networking-fundamentals-module-1-lesson-2",
+              "title": "Network Devices",
+              "status": "planned"
+            },
+            {
+              "id": "networking-fundamentals-module-1-lesson-3",
+              "title": "OSI and TCP/IP Models",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "networking-fundamentals-module-2",
+          "title": "Addressing and Routing",
+          "lessons": [
+            {
+              "id": "networking-fundamentals-module-2-lesson-1",
+              "title": "IPv4 and Subnets",
+              "status": "planned"
+            },
+            {
+              "id": "networking-fundamentals-module-2-lesson-2",
+              "title": "IPv6 Fundamentals",
+              "status": "planned"
+            },
+            {
+              "id": "networking-fundamentals-module-2-lesson-3",
+              "title": "Routing and Default Gateways",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "networking-fundamentals-module-3",
+          "title": "Network Services",
+          "lessons": [
+            {
+              "id": "networking-fundamentals-module-3-lesson-1",
+              "title": "DNS and DHCP",
+              "status": "planned"
+            },
+            {
+              "id": "networking-fundamentals-module-3-lesson-2",
+              "title": "TCP and UDP",
+              "status": "planned"
+            },
+            {
+              "id": "networking-fundamentals-module-3-lesson-3",
+              "title": "HTTP, HTTPS and TLS",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "networking-fundamentals-module-4",
+          "title": "Troubleshooting",
+          "lessons": [
+            {
+              "id": "networking-fundamentals-module-4-lesson-1",
+              "title": "Ping and Traceroute",
+              "status": "planned"
+            },
+            {
+              "id": "networking-fundamentals-module-4-lesson-2",
+              "title": "Packet Capture with Wireshark",
+              "status": "planned"
+            },
+            {
+              "id": "networking-fundamentals-module-4-lesson-3",
+              "title": "Document and Resolve Network Faults",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linux-and-operating-systems-fundamentals",
+      "title": "Linux and Operating Systems Fundamentals",
+      "modules": [
+        {
+          "id": "linux-and-operating-systems-fundamentals-module-1",
+          "title": "Operating System Foundations",
+          "lessons": [
+            {
+              "id": "linux-and-operating-systems-fundamentals-module-1-lesson-1",
+              "title": "What an Operating System Does",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-operating-systems-fundamentals-module-1-lesson-2",
+              "title": "Processes and Memory",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-operating-systems-fundamentals-module-1-lesson-3",
+              "title": "Filesystems and Storage",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "linux-and-operating-systems-fundamentals-module-2",
+          "title": "Linux Command Line",
+          "lessons": [
+            {
+              "id": "linux-and-operating-systems-fundamentals-module-2-lesson-1",
+              "title": "Terminal Navigation",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-operating-systems-fundamentals-module-2-lesson-2",
+              "title": "Files and Text Processing",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-operating-systems-fundamentals-module-2-lesson-3",
+              "title": "Pipes and Redirection",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "linux-and-operating-systems-fundamentals-module-3",
+          "title": "Accounts and Services",
+          "lessons": [
+            {
+              "id": "linux-and-operating-systems-fundamentals-module-3-lesson-1",
+              "title": "Users and Groups",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-operating-systems-fundamentals-module-3-lesson-2",
+              "title": "Permissions and Ownership",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-operating-systems-fundamentals-module-3-lesson-3",
+              "title": "Processes and Services",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "linux-and-operating-systems-fundamentals-module-4",
+          "title": "System Care",
+          "lessons": [
+            {
+              "id": "linux-and-operating-systems-fundamentals-module-4-lesson-1",
+              "title": "Packages and Updates",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-operating-systems-fundamentals-module-4-lesson-2",
+              "title": "Logs and Troubleshooting",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-operating-systems-fundamentals-module-4-lesson-3",
+              "title": "Shell Scripting Basics",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "database-management-and-sql",
+      "title": "Database Management and SQL",
+      "modules": [
+        {
+          "id": "database-management-and-sql-module-1",
+          "title": "Database Foundations",
+          "lessons": [
+            {
+              "id": "database-management-and-sql-module-1-lesson-1",
+              "title": "Relational Database Concepts",
+              "status": "planned"
+            },
+            {
+              "id": "database-management-and-sql-module-1-lesson-2",
+              "title": "Tables, Keys and Relationships",
+              "status": "planned"
+            },
+            {
+              "id": "database-management-and-sql-module-1-lesson-3",
+              "title": "Designing a Schema",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "database-management-and-sql-module-2",
+          "title": "SQL Queries",
+          "lessons": [
+            {
+              "id": "database-management-and-sql-module-2-lesson-1",
+              "title": "SELECT and Filtering",
+              "status": "planned"
+            },
+            {
+              "id": "database-management-and-sql-module-2-lesson-2",
+              "title": "Sorting, Grouping and Aggregation",
+              "status": "planned"
+            },
+            {
+              "id": "database-management-and-sql-module-2-lesson-3",
+              "title": "Joins and Subqueries",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "database-management-and-sql-module-3",
+          "title": "Data Changes",
+          "lessons": [
+            {
+              "id": "database-management-and-sql-module-3-lesson-1",
+              "title": "INSERT, UPDATE and DELETE",
+              "status": "planned"
+            },
+            {
+              "id": "database-management-and-sql-module-3-lesson-2",
+              "title": "Transactions and Constraints",
+              "status": "planned"
+            },
+            {
+              "id": "database-management-and-sql-module-3-lesson-3",
+              "title": "Views and Reusable Queries",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "database-management-and-sql-module-4",
+          "title": "Reliable Databases",
+          "lessons": [
+            {
+              "id": "database-management-and-sql-module-4-lesson-1",
+              "title": "Indexes and Query Performance",
+              "status": "planned"
+            },
+            {
+              "id": "database-management-and-sql-module-4-lesson-2",
+              "title": "Backups and Recovery",
+              "status": "planned"
+            },
+            {
+              "id": "database-management-and-sql-module-4-lesson-3",
+              "title": "Database Security and a Practical Project",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "software-development",
+      "title": "Software Development",
+      "modules": [
+        {
+          "id": "software-development-module-1",
+          "title": "Engineering Foundations",
+          "lessons": [
+            {
+              "id": "software-development-module-1-lesson-1",
+              "title": "Requirements and User Stories",
+              "status": "planned"
+            },
+            {
+              "id": "software-development-module-1-lesson-2",
+              "title": "Architecture and Design",
+              "status": "planned"
+            },
+            {
+              "id": "software-development-module-1-lesson-3",
+              "title": "Choosing a Technology Stack",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "software-development-module-2",
+          "title": "Building Software",
+          "lessons": [
+            {
+              "id": "software-development-module-2-lesson-1",
+              "title": "Project Structure and Modules",
+              "status": "planned"
+            },
+            {
+              "id": "software-development-module-2-lesson-2",
+              "title": "APIs and Data Flow",
+              "status": "planned"
+            },
+            {
+              "id": "software-development-module-2-lesson-3",
+              "title": "Error Handling and Logging",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "software-development-module-3",
+          "title": "Team Development",
+          "lessons": [
+            {
+              "id": "software-development-module-3-lesson-1",
+              "title": "Git Collaboration and Reviews",
+              "status": "planned"
+            },
+            {
+              "id": "software-development-module-3-lesson-2",
+              "title": "Agile Planning",
+              "status": "planned"
+            },
+            {
+              "id": "software-development-module-3-lesson-3",
+              "title": "Documentation and Maintainability",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "software-development-module-4",
+          "title": "Release Engineering",
+          "lessons": [
+            {
+              "id": "software-development-module-4-lesson-1",
+              "title": "Automated Tests",
+              "status": "planned"
+            },
+            {
+              "id": "software-development-module-4-lesson-2",
+              "title": "Build and Deployment Pipelines",
+              "status": "planned"
+            },
+            {
+              "id": "software-development-module-4-lesson-3",
+              "title": "Monitoring and Maintenance",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "software-testing-and-quality-assurance",
+      "title": "Software Testing and Quality Assurance",
+      "modules": [
+        {
+          "id": "software-testing-and-quality-assurance-module-1",
+          "title": "Testing Foundations",
+          "lessons": [
+            {
+              "id": "software-testing-and-quality-assurance-module-1-lesson-1",
+              "title": "Quality Assurance Principles",
+              "status": "planned"
+            },
+            {
+              "id": "software-testing-and-quality-assurance-module-1-lesson-2",
+              "title": "Test Plans and Test Cases",
+              "status": "planned"
+            },
+            {
+              "id": "software-testing-and-quality-assurance-module-1-lesson-3",
+              "title": "Requirements and Acceptance Criteria",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "software-testing-and-quality-assurance-module-2",
+          "title": "Test Types",
+          "lessons": [
+            {
+              "id": "software-testing-and-quality-assurance-module-2-lesson-1",
+              "title": "Unit Testing",
+              "status": "planned"
+            },
+            {
+              "id": "software-testing-and-quality-assurance-module-2-lesson-2",
+              "title": "Integration and API Testing",
+              "status": "planned"
+            },
+            {
+              "id": "software-testing-and-quality-assurance-module-2-lesson-3",
+              "title": "End-to-End Testing",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "software-testing-and-quality-assurance-module-3",
+          "title": "Finding Defects",
+          "lessons": [
+            {
+              "id": "software-testing-and-quality-assurance-module-3-lesson-1",
+              "title": "Reproducing and Reporting Bugs",
+              "status": "planned"
+            },
+            {
+              "id": "software-testing-and-quality-assurance-module-3-lesson-2",
+              "title": "Regression Testing",
+              "status": "planned"
+            },
+            {
+              "id": "software-testing-and-quality-assurance-module-3-lesson-3",
+              "title": "Boundary and Negative Testing",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "software-testing-and-quality-assurance-module-4",
+          "title": "Automation and Quality",
+          "lessons": [
+            {
+              "id": "software-testing-and-quality-assurance-module-4-lesson-1",
+              "title": "Test Automation Basics",
+              "status": "planned"
+            },
+            {
+              "id": "software-testing-and-quality-assurance-module-4-lesson-2",
+              "title": "Continuous Integration Checks",
+              "status": "planned"
+            },
+            {
+              "id": "software-testing-and-quality-assurance-module-4-lesson-3",
+              "title": "Coverage, Risk and Release Decisions",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "network-administration",
+      "title": "Network Administration",
+      "modules": [
+        {
+          "id": "network-administration-module-1",
+          "title": "Network Operations",
+          "lessons": [
+            {
+              "id": "network-administration-module-1-lesson-1",
+              "title": "Network Documentation",
+              "status": "planned"
+            },
+            {
+              "id": "network-administration-module-1-lesson-2",
+              "title": "Switches and VLANs",
+              "status": "planned"
+            },
+            {
+              "id": "network-administration-module-1-lesson-3",
+              "title": "Routing Configuration Concepts",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "network-administration-module-2",
+          "title": "Services and Access",
+          "lessons": [
+            {
+              "id": "network-administration-module-2-lesson-1",
+              "title": "DHCP and DNS Administration",
+              "status": "planned"
+            },
+            {
+              "id": "network-administration-module-2-lesson-2",
+              "title": "Wireless Network Management",
+              "status": "planned"
+            },
+            {
+              "id": "network-administration-module-2-lesson-3",
+              "title": "Remote Access and VPNs",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "network-administration-module-3",
+          "title": "Monitoring",
+          "lessons": [
+            {
+              "id": "network-administration-module-3-lesson-1",
+              "title": "Network Metrics and Logs",
+              "status": "planned"
+            },
+            {
+              "id": "network-administration-module-3-lesson-2",
+              "title": "SNMP and Monitoring Concepts",
+              "status": "planned"
+            },
+            {
+              "id": "network-administration-module-3-lesson-3",
+              "title": "Capacity and Availability",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "network-administration-module-4",
+          "title": "Troubleshooting and Security",
+          "lessons": [
+            {
+              "id": "network-administration-module-4-lesson-1",
+              "title": "Structured Fault Isolation",
+              "status": "planned"
+            },
+            {
+              "id": "network-administration-module-4-lesson-2",
+              "title": "Firewall and Access Rules",
+              "status": "planned"
+            },
+            {
+              "id": "network-administration-module-4-lesson-3",
+              "title": "Configuration Backup and Recovery",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "systems-administration",
+      "title": "Systems Administration",
+      "modules": [
+        {
+          "id": "systems-administration-module-1",
+          "title": "System Provisioning",
+          "lessons": [
+            {
+              "id": "systems-administration-module-1-lesson-1",
+              "title": "Server Roles and Requirements",
+              "status": "planned"
+            },
+            {
+              "id": "systems-administration-module-1-lesson-2",
+              "title": "Installation and Initial Hardening",
+              "status": "planned"
+            },
+            {
+              "id": "systems-administration-module-1-lesson-3",
+              "title": "Accounts and Privileges",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "systems-administration-module-2",
+          "title": "Services and Storage",
+          "lessons": [
+            {
+              "id": "systems-administration-module-2-lesson-1",
+              "title": "Service Management",
+              "status": "planned"
+            },
+            {
+              "id": "systems-administration-module-2-lesson-2",
+              "title": "Storage and Filesystems",
+              "status": "planned"
+            },
+            {
+              "id": "systems-administration-module-2-lesson-3",
+              "title": "Backups and Restore Testing",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "systems-administration-module-3",
+          "title": "Automation",
+          "lessons": [
+            {
+              "id": "systems-administration-module-3-lesson-1",
+              "title": "Shell and PowerShell Fundamentals",
+              "status": "planned"
+            },
+            {
+              "id": "systems-administration-module-3-lesson-2",
+              "title": "Scheduled Tasks",
+              "status": "planned"
+            },
+            {
+              "id": "systems-administration-module-3-lesson-3",
+              "title": "Configuration Management Concepts",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "systems-administration-module-4",
+          "title": "Operations",
+          "lessons": [
+            {
+              "id": "systems-administration-module-4-lesson-1",
+              "title": "Logs and Performance",
+              "status": "planned"
+            },
+            {
+              "id": "systems-administration-module-4-lesson-2",
+              "title": "Patch and Change Management",
+              "status": "planned"
+            },
+            {
+              "id": "systems-administration-module-4-lesson-3",
+              "title": "Disaster Recovery Procedures",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloud-computing-fundamentals",
+      "title": "Cloud Computing Fundamentals",
+      "modules": [
+        {
+          "id": "cloud-computing-fundamentals-module-1",
+          "title": "Cloud Concepts",
+          "lessons": [
+            {
+              "id": "cloud-computing-fundamentals-module-1-lesson-1",
+              "title": "Cloud Computing Models",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-computing-fundamentals-module-1-lesson-2",
+              "title": "IaaS, PaaS and SaaS",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-computing-fundamentals-module-1-lesson-3",
+              "title": "Public, Private and Hybrid Cloud",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "cloud-computing-fundamentals-module-2",
+          "title": "Cloud Infrastructure",
+          "lessons": [
+            {
+              "id": "cloud-computing-fundamentals-module-2-lesson-1",
+              "title": "Compute and Virtual Machines",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-computing-fundamentals-module-2-lesson-2",
+              "title": "Storage and Databases",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-computing-fundamentals-module-2-lesson-3",
+              "title": "Virtual Networks and DNS",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "cloud-computing-fundamentals-module-3",
+          "title": "Deploying Applications",
+          "lessons": [
+            {
+              "id": "cloud-computing-fundamentals-module-3-lesson-1",
+              "title": "Identity and Permissions",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-computing-fundamentals-module-3-lesson-2",
+              "title": "Deploy a Sample Service",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-computing-fundamentals-module-3-lesson-3",
+              "title": "Monitoring and Scaling",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "cloud-computing-fundamentals-module-4",
+          "title": "Cloud Governance",
+          "lessons": [
+            {
+              "id": "cloud-computing-fundamentals-module-4-lesson-1",
+              "title": "Costs and Budgets",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-computing-fundamentals-module-4-lesson-2",
+              "title": "Availability and Backups",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-computing-fundamentals-module-4-lesson-3",
+              "title": "Shared Responsibility and Security",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-analytics-fundamentals",
+      "title": "Data Analytics Fundamentals",
+      "modules": [
+        {
+          "id": "data-analytics-fundamentals-module-1",
+          "title": "Analytics Foundations",
+          "lessons": [
+            {
+              "id": "data-analytics-fundamentals-module-1-lesson-1",
+              "title": "Data Types and Questions",
+              "status": "planned"
+            },
+            {
+              "id": "data-analytics-fundamentals-module-1-lesson-2",
+              "title": "Collecting and Understanding Data",
+              "status": "planned"
+            },
+            {
+              "id": "data-analytics-fundamentals-module-1-lesson-3",
+              "title": "Data Quality and Bias",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "data-analytics-fundamentals-module-2",
+          "title": "Preparing Data",
+          "lessons": [
+            {
+              "id": "data-analytics-fundamentals-module-2-lesson-1",
+              "title": "Spreadsheets and Formulas",
+              "status": "planned"
+            },
+            {
+              "id": "data-analytics-fundamentals-module-2-lesson-2",
+              "title": "Cleaning Missing and Duplicate Values",
+              "status": "planned"
+            },
+            {
+              "id": "data-analytics-fundamentals-module-2-lesson-3",
+              "title": "Transforming and Combining Data",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "data-analytics-fundamentals-module-3",
+          "title": "Analysis",
+          "lessons": [
+            {
+              "id": "data-analytics-fundamentals-module-3-lesson-1",
+              "title": "Descriptive Statistics",
+              "status": "planned"
+            },
+            {
+              "id": "data-analytics-fundamentals-module-3-lesson-2",
+              "title": "SQL for Analysis",
+              "status": "planned"
+            },
+            {
+              "id": "data-analytics-fundamentals-module-3-lesson-3",
+              "title": "Python and Data Analysis Libraries",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "data-analytics-fundamentals-module-4",
+          "title": "Communicating Results",
+          "lessons": [
+            {
+              "id": "data-analytics-fundamentals-module-4-lesson-1",
+              "title": "Charts and Visualization",
+              "status": "planned"
+            },
+            {
+              "id": "data-analytics-fundamentals-module-4-lesson-2",
+              "title": "Dashboards and Key Metrics",
+              "status": "planned"
+            },
+            {
+              "id": "data-analytics-fundamentals-module-4-lesson-3",
+              "title": "Build an Evidence-Based Report",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "application-development-and-deployment",
+      "title": "Application Development and Deployment",
+      "modules": [
+        {
+          "id": "application-development-and-deployment-module-1",
+          "title": "Application Design",
+          "lessons": [
+            {
+              "id": "application-development-and-deployment-module-1-lesson-1",
+              "title": "User Needs and Requirements",
+              "status": "planned"
+            },
+            {
+              "id": "application-development-and-deployment-module-1-lesson-2",
+              "title": "Application Architecture",
+              "status": "planned"
+            },
+            {
+              "id": "application-development-and-deployment-module-1-lesson-3",
+              "title": "Interface and Data Design",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "application-development-and-deployment-module-2",
+          "title": "Implementation",
+          "lessons": [
+            {
+              "id": "application-development-and-deployment-module-2-lesson-1",
+              "title": "Project Setup",
+              "status": "planned"
+            },
+            {
+              "id": "application-development-and-deployment-module-2-lesson-2",
+              "title": "APIs and Persistent Data",
+              "status": "planned"
+            },
+            {
+              "id": "application-development-and-deployment-module-2-lesson-3",
+              "title": "Authentication and Input Validation",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "application-development-and-deployment-module-3",
+          "title": "Testing",
+          "lessons": [
+            {
+              "id": "application-development-and-deployment-module-3-lesson-1",
+              "title": "Functional and Integration Tests",
+              "status": "planned"
+            },
+            {
+              "id": "application-development-and-deployment-module-3-lesson-2",
+              "title": "Error Handling",
+              "status": "planned"
+            },
+            {
+              "id": "application-development-and-deployment-module-3-lesson-3",
+              "title": "Performance and Accessibility",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "application-development-and-deployment-module-4",
+          "title": "Deployment",
+          "lessons": [
+            {
+              "id": "application-development-and-deployment-module-4-lesson-1",
+              "title": "Environment Variables and Secrets",
+              "status": "planned"
+            },
+            {
+              "id": "application-development-and-deployment-module-4-lesson-2",
+              "title": "Build and Release",
+              "status": "planned"
+            },
+            {
+              "id": "application-development-and-deployment-module-4-lesson-3",
+              "title": "Deployment Verification and Rollback",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity-fundamentals",
+      "title": "Cybersecurity Fundamentals",
+      "modules": [
+        {
+          "id": "cybersecurity-fundamentals-module-1",
+          "title": "Security Foundations",
+          "lessons": [
+            {
+              "id": "cybersecurity-fundamentals-module-1-lesson-1",
+              "title": "Confidentiality, Integrity and Availability",
+              "status": "planned"
+            },
+            {
+              "id": "cybersecurity-fundamentals-module-1-lesson-2",
+              "title": "Threats, Vulnerabilities and Risk",
+              "status": "planned"
+            },
+            {
+              "id": "cybersecurity-fundamentals-module-1-lesson-3",
+              "title": "Security Policies and Ethics",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "cybersecurity-fundamentals-module-2",
+          "title": "Protecting Systems",
+          "lessons": [
+            {
+              "id": "cybersecurity-fundamentals-module-2-lesson-1",
+              "title": "Passwords and Multifactor Authentication",
+              "status": "planned"
+            },
+            {
+              "id": "cybersecurity-fundamentals-module-2-lesson-2",
+              "title": "Updates and Secure Configuration",
+              "status": "planned"
+            },
+            {
+              "id": "cybersecurity-fundamentals-module-2-lesson-3",
+              "title": "Endpoint and Network Protection",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "cybersecurity-fundamentals-module-3",
+          "title": "Recognizing Attacks",
+          "lessons": [
+            {
+              "id": "cybersecurity-fundamentals-module-3-lesson-1",
+              "title": "Phishing and Social Engineering",
+              "status": "planned"
+            },
+            {
+              "id": "cybersecurity-fundamentals-module-3-lesson-2",
+              "title": "Malware and Ransomware",
+              "status": "planned"
+            },
+            {
+              "id": "cybersecurity-fundamentals-module-3-lesson-3",
+              "title": "Common Web and Network Threats",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "cybersecurity-fundamentals-module-4",
+          "title": "Practical Defense",
+          "lessons": [
+            {
+              "id": "cybersecurity-fundamentals-module-4-lesson-1",
+              "title": "Safe Security Lab Setup",
+              "status": "planned"
+            },
+            {
+              "id": "cybersecurity-fundamentals-module-4-lesson-2",
+              "title": "Basic Log and Network Review",
+              "status": "planned"
+            },
+            {
+              "id": "cybersecurity-fundamentals-module-4-lesson-3",
+              "title": "Create a Personal Security Checklist",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computer-and-network-security",
+      "title": "Computer and Network Security",
+      "modules": [
+        {
+          "id": "computer-and-network-security-module-1",
+          "title": "Security Architecture",
+          "lessons": [
+            {
+              "id": "computer-and-network-security-module-1-lesson-1",
+              "title": "Security Boundaries and Trust",
+              "status": "planned"
+            },
+            {
+              "id": "computer-and-network-security-module-1-lesson-2",
+              "title": "Network Segmentation",
+              "status": "planned"
+            },
+            {
+              "id": "computer-and-network-security-module-1-lesson-3",
+              "title": "Secure Protocols",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "computer-and-network-security-module-2",
+          "title": "Network Defenses",
+          "lessons": [
+            {
+              "id": "computer-and-network-security-module-2-lesson-1",
+              "title": "Firewalls and Filtering",
+              "status": "planned"
+            },
+            {
+              "id": "computer-and-network-security-module-2-lesson-2",
+              "title": "IDS and IPS Concepts",
+              "status": "planned"
+            },
+            {
+              "id": "computer-and-network-security-module-2-lesson-3",
+              "title": "VPNs and Secure Remote Access",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "computer-and-network-security-module-3",
+          "title": "Endpoint Security",
+          "lessons": [
+            {
+              "id": "computer-and-network-security-module-3-lesson-1",
+              "title": "Host Firewalls and Hardening",
+              "status": "planned"
+            },
+            {
+              "id": "computer-and-network-security-module-3-lesson-2",
+              "title": "Endpoint Detection Concepts",
+              "status": "planned"
+            },
+            {
+              "id": "computer-and-network-security-module-3-lesson-3",
+              "title": "Patch and Vulnerability Management",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "computer-and-network-security-module-4",
+          "title": "Validation and Recovery",
+          "lessons": [
+            {
+              "id": "computer-and-network-security-module-4-lesson-1",
+              "title": "Analyze a Network Capture",
+              "status": "planned"
+            },
+            {
+              "id": "computer-and-network-security-module-4-lesson-2",
+              "title": "Review Security Logs",
+              "status": "planned"
+            },
+            {
+              "id": "computer-and-network-security-module-4-lesson-3",
+              "title": "Test and Improve Defensive Controls",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linux-and-windows-security",
+      "title": "Linux and Windows Security",
+      "modules": [
+        {
+          "id": "linux-and-windows-security-module-1",
+          "title": "Secure Operating Systems",
+          "lessons": [
+            {
+              "id": "linux-and-windows-security-module-1-lesson-1",
+              "title": "Security Baselines",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-windows-security-module-1-lesson-2",
+              "title": "Updates and Trusted Software",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-windows-security-module-1-lesson-3",
+              "title": "Disk Encryption and Secure Boot",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "linux-and-windows-security-module-2",
+          "title": "Identity and Permissions",
+          "lessons": [
+            {
+              "id": "linux-and-windows-security-module-2-lesson-1",
+              "title": "Linux Users and Permissions",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-windows-security-module-2-lesson-2",
+              "title": "Windows Accounts and Groups",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-windows-security-module-2-lesson-3",
+              "title": "Least Privilege and Administrative Access",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "linux-and-windows-security-module-3",
+          "title": "Monitoring and Hardening",
+          "lessons": [
+            {
+              "id": "linux-and-windows-security-module-3-lesson-1",
+              "title": "Linux Authentication Logs",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-windows-security-module-3-lesson-2",
+              "title": "Windows Event Logs",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-windows-security-module-3-lesson-3",
+              "title": "Services, Firewall Rules and Audit Settings",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "linux-and-windows-security-module-4",
+          "title": "Practical Defense",
+          "lessons": [
+            {
+              "id": "linux-and-windows-security-module-4-lesson-1",
+              "title": "Harden a Test Virtual Machine",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-windows-security-module-4-lesson-2",
+              "title": "Investigate Suspicious Events",
+              "status": "planned"
+            },
+            {
+              "id": "linux-and-windows-security-module-4-lesson-3",
+              "title": "Validate and Document Remediation",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "identity-and-access-management",
+      "title": "Identity and Access Management",
+      "modules": [
+        {
+          "id": "identity-and-access-management-module-1",
+          "title": "Identity Foundations",
+          "lessons": [
+            {
+              "id": "identity-and-access-management-module-1-lesson-1",
+              "title": "Identities, Accounts and Sessions",
+              "status": "planned"
+            },
+            {
+              "id": "identity-and-access-management-module-1-lesson-2",
+              "title": "Authentication and Authorization",
+              "status": "planned"
+            },
+            {
+              "id": "identity-and-access-management-module-1-lesson-3",
+              "title": "MFA and Passwordless Access",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "identity-and-access-management-module-2",
+          "title": "Access Control",
+          "lessons": [
+            {
+              "id": "identity-and-access-management-module-2-lesson-1",
+              "title": "RBAC and ABAC",
+              "status": "planned"
+            },
+            {
+              "id": "identity-and-access-management-module-2-lesson-2",
+              "title": "Least Privilege",
+              "status": "planned"
+            },
+            {
+              "id": "identity-and-access-management-module-2-lesson-3",
+              "title": "Privileged Access Management",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "identity-and-access-management-module-3",
+          "title": "Enterprise Identity",
+          "lessons": [
+            {
+              "id": "identity-and-access-management-module-3-lesson-1",
+              "title": "Directories and Federation",
+              "status": "planned"
+            },
+            {
+              "id": "identity-and-access-management-module-3-lesson-2",
+              "title": "SSO and OAuth/OIDC Concepts",
+              "status": "planned"
+            },
+            {
+              "id": "identity-and-access-management-module-3-lesson-3",
+              "title": "Provisioning and Deprovisioning",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "identity-and-access-management-module-4",
+          "title": "Governance",
+          "lessons": [
+            {
+              "id": "identity-and-access-management-module-4-lesson-1",
+              "title": "Access Reviews",
+              "status": "planned"
+            },
+            {
+              "id": "identity-and-access-management-module-4-lesson-2",
+              "title": "Identity Logs and Auditing",
+              "status": "planned"
+            },
+            {
+              "id": "identity-and-access-management-module-4-lesson-3",
+              "title": "Respond to a Compromised Account",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vulnerability-assessment-fundamentals",
+      "title": "Vulnerability Assessment Fundamentals",
+      "modules": [
+        {
+          "id": "vulnerability-assessment-fundamentals-module-1",
+          "title": "Assessment Foundations",
+          "lessons": [
+            {
+              "id": "vulnerability-assessment-fundamentals-module-1-lesson-1",
+              "title": "Scope, Permission and Rules of Engagement",
+              "status": "planned"
+            },
+            {
+              "id": "vulnerability-assessment-fundamentals-module-1-lesson-2",
+              "title": "Assets and Attack Surface",
+              "status": "planned"
+            },
+            {
+              "id": "vulnerability-assessment-fundamentals-module-1-lesson-3",
+              "title": "CVEs, CVSS and Risk",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "vulnerability-assessment-fundamentals-module-2",
+          "title": "Discovery and Scanning",
+          "lessons": [
+            {
+              "id": "vulnerability-assessment-fundamentals-module-2-lesson-1",
+              "title": "Asset Inventory",
+              "status": "planned"
+            },
+            {
+              "id": "vulnerability-assessment-fundamentals-module-2-lesson-2",
+              "title": "Nmap in an Authorized Lab",
+              "status": "planned"
+            },
+            {
+              "id": "vulnerability-assessment-fundamentals-module-2-lesson-3",
+              "title": "Greenbone/OpenVAS Scan Fundamentals",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "vulnerability-assessment-fundamentals-module-3",
+          "title": "Validation",
+          "lessons": [
+            {
+              "id": "vulnerability-assessment-fundamentals-module-3-lesson-1",
+              "title": "Verify Findings Safely",
+              "status": "planned"
+            },
+            {
+              "id": "vulnerability-assessment-fundamentals-module-3-lesson-2",
+              "title": "False Positives and Evidence",
+              "status": "planned"
+            },
+            {
+              "id": "vulnerability-assessment-fundamentals-module-3-lesson-3",
+              "title": "Prioritize by Risk and Exposure",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "vulnerability-assessment-fundamentals-module-4",
+          "title": "Remediation",
+          "lessons": [
+            {
+              "id": "vulnerability-assessment-fundamentals-module-4-lesson-1",
+              "title": "Patch and Configuration Fixes",
+              "status": "planned"
+            },
+            {
+              "id": "vulnerability-assessment-fundamentals-module-4-lesson-2",
+              "title": "Retesting and Reporting",
+              "status": "planned"
+            },
+            {
+              "id": "vulnerability-assessment-fundamentals-module-4-lesson-3",
+              "title": "Build a Vulnerability Assessment Report",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security-monitoring-fundamentals",
+      "title": "Security Monitoring Fundamentals",
+      "modules": [
+        {
+          "id": "security-monitoring-fundamentals-module-1",
+          "title": "Monitoring Foundations",
+          "lessons": [
+            {
+              "id": "security-monitoring-fundamentals-module-1-lesson-1",
+              "title": "Logs, Events and Telemetry",
+              "status": "planned"
+            },
+            {
+              "id": "security-monitoring-fundamentals-module-1-lesson-2",
+              "title": "Time Synchronization and Context",
+              "status": "planned"
+            },
+            {
+              "id": "security-monitoring-fundamentals-module-1-lesson-3",
+              "title": "Indicators and Baselines",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "security-monitoring-fundamentals-module-2",
+          "title": "Collecting Evidence",
+          "lessons": [
+            {
+              "id": "security-monitoring-fundamentals-module-2-lesson-1",
+              "title": "Endpoint and Server Logs",
+              "status": "planned"
+            },
+            {
+              "id": "security-monitoring-fundamentals-module-2-lesson-2",
+              "title": "Network Telemetry",
+              "status": "planned"
+            },
+            {
+              "id": "security-monitoring-fundamentals-module-2-lesson-3",
+              "title": "Centralized Log Collection",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "security-monitoring-fundamentals-module-3",
+          "title": "Detection",
+          "lessons": [
+            {
+              "id": "security-monitoring-fundamentals-module-3-lesson-1",
+              "title": "Rules, Alerts and Thresholds",
+              "status": "planned"
+            },
+            {
+              "id": "security-monitoring-fundamentals-module-3-lesson-2",
+              "title": "Common Suspicious Patterns",
+              "status": "planned"
+            },
+            {
+              "id": "security-monitoring-fundamentals-module-3-lesson-3",
+              "title": "Reducing False Positives",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "security-monitoring-fundamentals-module-4",
+          "title": "Responding to Alerts",
+          "lessons": [
+            {
+              "id": "security-monitoring-fundamentals-module-4-lesson-1",
+              "title": "Triage and Escalation",
+              "status": "planned"
+            },
+            {
+              "id": "security-monitoring-fundamentals-module-4-lesson-2",
+              "title": "Document an Investigation",
+              "status": "planned"
+            },
+            {
+              "id": "security-monitoring-fundamentals-module-4-lesson-3",
+              "title": "Improve a Detection Rule",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "defensive-cybersecurity",
+      "title": "Defensive Cybersecurity",
+      "modules": [
+        {
+          "id": "defensive-cybersecurity-module-1",
+          "title": "Defense Strategy",
+          "lessons": [
+            {
+              "id": "defensive-cybersecurity-module-1-lesson-1",
+              "title": "Defense in Depth",
+              "status": "planned"
+            },
+            {
+              "id": "defensive-cybersecurity-module-1-lesson-2",
+              "title": "Threat Modeling",
+              "status": "planned"
+            },
+            {
+              "id": "defensive-cybersecurity-module-1-lesson-3",
+              "title": "Security Baselines and Risk",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "defensive-cybersecurity-module-2",
+          "title": "Preventive Controls",
+          "lessons": [
+            {
+              "id": "defensive-cybersecurity-module-2-lesson-1",
+              "title": "Hardening Endpoints and Servers",
+              "status": "planned"
+            },
+            {
+              "id": "defensive-cybersecurity-module-2-lesson-2",
+              "title": "Network Segmentation",
+              "status": "planned"
+            },
+            {
+              "id": "defensive-cybersecurity-module-2-lesson-3",
+              "title": "Identity and Data Protection",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "defensive-cybersecurity-module-3",
+          "title": "Detection and Analysis",
+          "lessons": [
+            {
+              "id": "defensive-cybersecurity-module-3-lesson-1",
+              "title": "Security Logs and Indicators",
+              "status": "planned"
+            },
+            {
+              "id": "defensive-cybersecurity-module-3-lesson-2",
+              "title": "SIEM Search Fundamentals",
+              "status": "planned"
+            },
+            {
+              "id": "defensive-cybersecurity-module-3-lesson-3",
+              "title": "Threat Intelligence Validation",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "defensive-cybersecurity-module-4",
+          "title": "Response and Improvement",
+          "lessons": [
+            {
+              "id": "defensive-cybersecurity-module-4-lesson-1",
+              "title": "Containment and Eradication",
+              "status": "planned"
+            },
+            {
+              "id": "defensive-cybersecurity-module-4-lesson-2",
+              "title": "Recovery and Lessons Learned",
+              "status": "planned"
+            },
+            {
+              "id": "defensive-cybersecurity-module-4-lesson-3",
+              "title": "Measure Defensive Effectiveness",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soc-fundamentals",
+      "title": "Security Operations Center Fundamentals",
+      "modules": [
+        {
+          "id": "soc-fundamentals-module-1",
+          "title": "SOC Operations",
+          "lessons": [
+            {
+              "id": "soc-fundamentals-module-1-lesson-1",
+              "title": "SOC Roles and Workflow",
+              "status": "planned"
+            },
+            {
+              "id": "soc-fundamentals-module-1-lesson-2",
+              "title": "Alert Sources and Severity",
+              "status": "planned"
+            },
+            {
+              "id": "soc-fundamentals-module-1-lesson-3",
+              "title": "Case Management and Evidence",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "soc-fundamentals-module-2",
+          "title": "SIEM Fundamentals",
+          "lessons": [
+            {
+              "id": "soc-fundamentals-module-2-lesson-1",
+              "title": "Log Ingestion and Parsing",
+              "status": "planned"
+            },
+            {
+              "id": "soc-fundamentals-module-2-lesson-2",
+              "title": "Search and Correlation",
+              "status": "planned"
+            },
+            {
+              "id": "soc-fundamentals-module-2-lesson-3",
+              "title": "Dashboards and Detection Rules",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "soc-fundamentals-module-3",
+          "title": "Alert Investigation",
+          "lessons": [
+            {
+              "id": "soc-fundamentals-module-3-lesson-1",
+              "title": "Phishing Alert Triage",
+              "status": "planned"
+            },
+            {
+              "id": "soc-fundamentals-module-3-lesson-2",
+              "title": "Suspicious Login Investigation",
+              "status": "planned"
+            },
+            {
+              "id": "soc-fundamentals-module-3-lesson-3",
+              "title": "Endpoint and Network Alert Correlation",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "soc-fundamentals-module-4",
+          "title": "Incident Handover",
+          "lessons": [
+            {
+              "id": "soc-fundamentals-module-4-lesson-1",
+              "title": "Escalation Criteria",
+              "status": "planned"
+            },
+            {
+              "id": "soc-fundamentals-module-4-lesson-2",
+              "title": "Write an Investigation Timeline",
+              "status": "planned"
+            },
+            {
+              "id": "soc-fundamentals-module-4-lesson-3",
+              "title": "Build a Practical SOC Case Report",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced-cybersecurity-operations",
+      "title": "Advanced Cybersecurity Operations",
+      "modules": [
+        {
+          "id": "advanced-cybersecurity-operations-module-1",
+          "title": "Advanced Detection",
+          "lessons": [
+            {
+              "id": "advanced-cybersecurity-operations-module-1-lesson-1",
+              "title": "Behavioral Detection Concepts",
+              "status": "planned"
+            },
+            {
+              "id": "advanced-cybersecurity-operations-module-1-lesson-2",
+              "title": "Threat Hunting Hypotheses",
+              "status": "planned"
+            },
+            {
+              "id": "advanced-cybersecurity-operations-module-1-lesson-3",
+              "title": "Correlating Multiple Telemetry Sources",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "advanced-cybersecurity-operations-module-2",
+          "title": "Threat Intelligence",
+          "lessons": [
+            {
+              "id": "advanced-cybersecurity-operations-module-2-lesson-1",
+              "title": "Intelligence Lifecycle",
+              "status": "planned"
+            },
+            {
+              "id": "advanced-cybersecurity-operations-module-2-lesson-2",
+              "title": "Indicators and Context",
+              "status": "planned"
+            },
+            {
+              "id": "advanced-cybersecurity-operations-module-2-lesson-3",
+              "title": "Mapping Activity to MITRE ATT&CK",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "advanced-cybersecurity-operations-module-3",
+          "title": "Investigation",
+          "lessons": [
+            {
+              "id": "advanced-cybersecurity-operations-module-3-lesson-1",
+              "title": "Endpoint and Network Investigation",
+              "status": "planned"
+            },
+            {
+              "id": "advanced-cybersecurity-operations-module-3-lesson-2",
+              "title": "Timeline and Evidence Correlation",
+              "status": "planned"
+            },
+            {
+              "id": "advanced-cybersecurity-operations-module-3-lesson-3",
+              "title": "Detection Engineering",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "advanced-cybersecurity-operations-module-4",
+          "title": "Operational Readiness",
+          "lessons": [
+            {
+              "id": "advanced-cybersecurity-operations-module-4-lesson-1",
+              "title": "Purple-Team Validation",
+              "status": "planned"
+            },
+            {
+              "id": "advanced-cybersecurity-operations-module-4-lesson-2",
+              "title": "Detection Gaps and Improvements",
+              "status": "planned"
+            },
+            {
+              "id": "advanced-cybersecurity-operations-module-4-lesson-3",
+              "title": "Advanced Operations Exercise",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "incident-response-and-recovery",
+      "title": "Incident Response and Recovery",
+      "modules": [
+        {
+          "id": "incident-response-and-recovery-module-1",
+          "title": "Preparation",
+          "lessons": [
+            {
+              "id": "incident-response-and-recovery-module-1-lesson-1",
+              "title": "Incident Response Plans",
+              "status": "planned"
+            },
+            {
+              "id": "incident-response-and-recovery-module-1-lesson-2",
+              "title": "Roles and Communication",
+              "status": "planned"
+            },
+            {
+              "id": "incident-response-and-recovery-module-1-lesson-3",
+              "title": "Evidence Handling and Readiness",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "incident-response-and-recovery-module-2",
+          "title": "Detection and Triage",
+          "lessons": [
+            {
+              "id": "incident-response-and-recovery-module-2-lesson-1",
+              "title": "Validate an Incident",
+              "status": "planned"
+            },
+            {
+              "id": "incident-response-and-recovery-module-2-lesson-2",
+              "title": "Determine Scope and Impact",
+              "status": "planned"
+            },
+            {
+              "id": "incident-response-and-recovery-module-2-lesson-3",
+              "title": "Preserve Evidence",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "incident-response-and-recovery-module-3",
+          "title": "Containment and Eradication",
+          "lessons": [
+            {
+              "id": "incident-response-and-recovery-module-3-lesson-1",
+              "title": "Isolate Affected Systems",
+              "status": "planned"
+            },
+            {
+              "id": "incident-response-and-recovery-module-3-lesson-2",
+              "title": "Remove Persistence and Threats",
+              "status": "planned"
+            },
+            {
+              "id": "incident-response-and-recovery-module-3-lesson-3",
+              "title": "Coordinate Remediation",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "incident-response-and-recovery-module-4",
+          "title": "Recovery and Learning",
+          "lessons": [
+            {
+              "id": "incident-response-and-recovery-module-4-lesson-1",
+              "title": "Restore from Trusted Backups",
+              "status": "planned"
+            },
+            {
+              "id": "incident-response-and-recovery-module-4-lesson-2",
+              "title": "Validate Recovery",
+              "status": "planned"
+            },
+            {
+              "id": "incident-response-and-recovery-module-4-lesson-3",
+              "title": "Post-Incident Review and Improvements",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ethical-hacking-in-authorized-labs",
+      "title": "Ethical Hacking in Authorized Labs",
+      "modules": [
+        {
+          "id": "ethical-hacking-in-authorized-labs-module-1",
+          "title": "Ethics and Lab Preparation",
+          "lessons": [
+            {
+              "id": "ethical-hacking-in-authorized-labs-module-1-lesson-1",
+              "title": "Written Permission and Scope",
+              "status": "planned"
+            },
+            {
+              "id": "ethical-hacking-in-authorized-labs-module-1-lesson-2",
+              "title": "Build an Isolated Practice Lab",
+              "status": "planned"
+            },
+            {
+              "id": "ethical-hacking-in-authorized-labs-module-1-lesson-3",
+              "title": "Kali Linux and Tool Safety",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "ethical-hacking-in-authorized-labs-module-2",
+          "title": "Reconnaissance and Discovery",
+          "lessons": [
+            {
+              "id": "ethical-hacking-in-authorized-labs-module-2-lesson-1",
+              "title": "Passive Reconnaissance",
+              "status": "planned"
+            },
+            {
+              "id": "ethical-hacking-in-authorized-labs-module-2-lesson-2",
+              "title": "Nmap Discovery in Your Lab",
+              "status": "planned"
+            },
+            {
+              "id": "ethical-hacking-in-authorized-labs-module-2-lesson-3",
+              "title": "Interpret Service and Port Results",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "ethical-hacking-in-authorized-labs-module-3",
+          "title": "Web and Application Testing",
+          "lessons": [
+            {
+              "id": "ethical-hacking-in-authorized-labs-module-3-lesson-1",
+              "title": "HTTP and Browser Developer Tools",
+              "status": "planned"
+            },
+            {
+              "id": "ethical-hacking-in-authorized-labs-module-3-lesson-2",
+              "title": "Burp Suite and OWASP ZAP Basics",
+              "status": "planned"
+            },
+            {
+              "id": "ethical-hacking-in-authorized-labs-module-3-lesson-3",
+              "title": "Test a Deliberately Vulnerable Practice App",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "ethical-hacking-in-authorized-labs-module-4",
+          "title": "Validation and Reporting",
+          "lessons": [
+            {
+              "id": "ethical-hacking-in-authorized-labs-module-4-lesson-1",
+              "title": "Safe Proof of Concept",
+              "status": "planned"
+            },
+            {
+              "id": "ethical-hacking-in-authorized-labs-module-4-lesson-2",
+              "title": "Metasploit in an Isolated Training Lab",
+              "status": "planned"
+            },
+            {
+              "id": "ethical-hacking-in-authorized-labs-module-4-lesson-3",
+              "title": "Document Findings and Defensive Fixes",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "professional-penetration-testing",
+      "title": "Professional Penetration Testing",
+      "modules": [
+        {
+          "id": "professional-penetration-testing-module-1",
+          "title": "Engagement Management",
+          "lessons": [
+            {
+              "id": "professional-penetration-testing-module-1-lesson-1",
+              "title": "Authorization and Rules of Engagement",
+              "status": "planned"
+            },
+            {
+              "id": "professional-penetration-testing-module-1-lesson-2",
+              "title": "Scope and Test Planning",
+              "status": "planned"
+            },
+            {
+              "id": "professional-penetration-testing-module-1-lesson-3",
+              "title": "Evidence and Data Handling",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "professional-penetration-testing-module-2",
+          "title": "Reconnaissance and Enumeration",
+          "lessons": [
+            {
+              "id": "professional-penetration-testing-module-2-lesson-1",
+              "title": "Asset Discovery",
+              "status": "planned"
+            },
+            {
+              "id": "professional-penetration-testing-module-2-lesson-2",
+              "title": "Service Enumeration with Nmap",
+              "status": "planned"
+            },
+            {
+              "id": "professional-penetration-testing-module-2-lesson-3",
+              "title": "Web and API Attack Surface Mapping",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "professional-penetration-testing-module-3",
+          "title": "Controlled Validation",
+          "lessons": [
+            {
+              "id": "professional-penetration-testing-module-3-lesson-1",
+              "title": "Web Testing with Burp Suite or OWASP ZAP",
+              "status": "planned"
+            },
+            {
+              "id": "professional-penetration-testing-module-3-lesson-2",
+              "title": "Validate Vulnerabilities Safely",
+              "status": "planned"
+            },
+            {
+              "id": "professional-penetration-testing-module-3-lesson-3",
+              "title": "Impact and Exploitability Assessment",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "professional-penetration-testing-module-4",
+          "title": "Reporting and Retesting",
+          "lessons": [
+            {
+              "id": "professional-penetration-testing-module-4-lesson-1",
+              "title": "Risk Rating and Evidence",
+              "status": "planned"
+            },
+            {
+              "id": "professional-penetration-testing-module-4-lesson-2",
+              "title": "Remediation Recommendations",
+              "status": "planned"
+            },
+            {
+              "id": "professional-penetration-testing-module-4-lesson-3",
+              "title": "Retest and Deliver a Professional Report",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red-team-and-blue-team-operations",
+      "title": "Red Team and Blue Team Operations",
+      "modules": [
+        {
+          "id": "red-team-and-blue-team-operations-module-1",
+          "title": "Team Roles and Rules",
+          "lessons": [
+            {
+              "id": "red-team-and-blue-team-operations-module-1-lesson-1",
+              "title": "Red Team, Blue Team and Purple Team",
+              "status": "planned"
+            },
+            {
+              "id": "red-team-and-blue-team-operations-module-1-lesson-2",
+              "title": "Exercise Scope and Safety",
+              "status": "planned"
+            },
+            {
+              "id": "red-team-and-blue-team-operations-module-1-lesson-3",
+              "title": "Threat Models and ATT&CK",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "red-team-and-blue-team-operations-module-2",
+          "title": "Adversary Simulation",
+          "lessons": [
+            {
+              "id": "red-team-and-blue-team-operations-module-2-lesson-1",
+              "title": "Safe Simulation Planning",
+              "status": "planned"
+            },
+            {
+              "id": "red-team-and-blue-team-operations-module-2-lesson-2",
+              "title": "Controlled Test Events",
+              "status": "planned"
+            },
+            {
+              "id": "red-team-and-blue-team-operations-module-2-lesson-3",
+              "title": "Record Actions and Expected Telemetry",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "red-team-and-blue-team-operations-module-3",
+          "title": "Detection and Response",
+          "lessons": [
+            {
+              "id": "red-team-and-blue-team-operations-module-3-lesson-1",
+              "title": "Build Blue-Team Detections",
+              "status": "planned"
+            },
+            {
+              "id": "red-team-and-blue-team-operations-module-3-lesson-2",
+              "title": "Investigate Simulated Activity",
+              "status": "planned"
+            },
+            {
+              "id": "red-team-and-blue-team-operations-module-3-lesson-3",
+              "title": "Contain and Recover",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "red-team-and-blue-team-operations-module-4",
+          "title": "Purple-Team Improvement",
+          "lessons": [
+            {
+              "id": "red-team-and-blue-team-operations-module-4-lesson-1",
+              "title": "Compare Expected and Observed Results",
+              "status": "planned"
+            },
+            {
+              "id": "red-team-and-blue-team-operations-module-4-lesson-2",
+              "title": "Tune Detections and Controls",
+              "status": "planned"
+            },
+            {
+              "id": "red-team-and-blue-team-operations-module-4-lesson-3",
+              "title": "Exercise Debrief and Report",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-forensics-and-cyber-investigation",
+      "title": "Digital Forensics and Cyber Investigation",
+      "modules": [
+        {
+          "id": "digital-forensics-and-cyber-investigation-module-1",
+          "title": "Forensic Foundations",
+          "lessons": [
+            {
+              "id": "digital-forensics-and-cyber-investigation-module-1-lesson-1",
+              "title": "Legal Authority and Evidence Handling",
+              "status": "planned"
+            },
+            {
+              "id": "digital-forensics-and-cyber-investigation-module-1-lesson-2",
+              "title": "Chain of Custody",
+              "status": "planned"
+            },
+            {
+              "id": "digital-forensics-and-cyber-investigation-module-1-lesson-3",
+              "title": "Forensic Readiness",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "digital-forensics-and-cyber-investigation-module-2",
+          "title": "Acquisition and Preservation",
+          "lessons": [
+            {
+              "id": "digital-forensics-and-cyber-investigation-module-2-lesson-1",
+              "title": "Disk and File Acquisition Concepts",
+              "status": "planned"
+            },
+            {
+              "id": "digital-forensics-and-cyber-investigation-module-2-lesson-2",
+              "title": "Hashing and Integrity Verification",
+              "status": "planned"
+            },
+            {
+              "id": "digital-forensics-and-cyber-investigation-module-2-lesson-3",
+              "title": "Write-Protected Evidence Handling",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "digital-forensics-and-cyber-investigation-module-3",
+          "title": "Examination",
+          "lessons": [
+            {
+              "id": "digital-forensics-and-cyber-investigation-module-3-lesson-1",
+              "title": "File Metadata and Timelines",
+              "status": "planned"
+            },
+            {
+              "id": "digital-forensics-and-cyber-investigation-module-3-lesson-2",
+              "title": "Operating System and Application Artifacts",
+              "status": "planned"
+            },
+            {
+              "id": "digital-forensics-and-cyber-investigation-module-3-lesson-3",
+              "title": "Network and Log Evidence",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "digital-forensics-and-cyber-investigation-module-4",
+          "title": "Analysis and Reporting",
+          "lessons": [
+            {
+              "id": "digital-forensics-and-cyber-investigation-module-4-lesson-1",
+              "title": "Build an Event Timeline",
+              "status": "planned"
+            },
+            {
+              "id": "digital-forensics-and-cyber-investigation-module-4-lesson-2",
+              "title": "Validate Findings with Ghidra or Other Suitable Tools",
+              "status": "planned"
+            },
+            {
+              "id": "digital-forensics-and-cyber-investigation-module-4-lesson-3",
+              "title": "Write a Reproducible Forensic Report",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloud-and-enterprise-security-engineering",
+      "title": "Cloud and Enterprise Security Engineering",
+      "modules": [
+        {
+          "id": "cloud-and-enterprise-security-engineering-module-1",
+          "title": "Security Architecture",
+          "lessons": [
+            {
+              "id": "cloud-and-enterprise-security-engineering-module-1-lesson-1",
+              "title": "Enterprise Threat Modeling",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-and-enterprise-security-engineering-module-1-lesson-2",
+              "title": "Cloud Shared Responsibility",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-and-enterprise-security-engineering-module-1-lesson-3",
+              "title": "Secure Network and Trust Boundaries",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "cloud-and-enterprise-security-engineering-module-2",
+          "title": "Identity and Data",
+          "lessons": [
+            {
+              "id": "cloud-and-enterprise-security-engineering-module-2-lesson-1",
+              "title": "Cloud IAM and Least Privilege",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-and-enterprise-security-engineering-module-2-lesson-2",
+              "title": "Secrets and Key Management",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-and-enterprise-security-engineering-module-2-lesson-3",
+              "title": "Data Classification and Encryption",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "cloud-and-enterprise-security-engineering-module-3",
+          "title": "Detection and Resilience",
+          "lessons": [
+            {
+              "id": "cloud-and-enterprise-security-engineering-module-3-lesson-1",
+              "title": "Centralized Audit Logging",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-and-enterprise-security-engineering-module-3-lesson-2",
+              "title": "Cloud Detection and Monitoring",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-and-enterprise-security-engineering-module-3-lesson-3",
+              "title": "Backup and Recovery Design",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "cloud-and-enterprise-security-engineering-module-4",
+          "title": "Engineering and Assurance",
+          "lessons": [
+            {
+              "id": "cloud-and-enterprise-security-engineering-module-4-lesson-1",
+              "title": "Infrastructure as Code Security",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-and-enterprise-security-engineering-module-4-lesson-2",
+              "title": "Policy and Configuration Validation",
+              "status": "planned"
+            },
+            {
+              "id": "cloud-and-enterprise-security-engineering-module-4-lesson-3",
+              "title": "Threat Modeling and Security Review",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "codecraft-academy-advanced-cybersecurity-professional-programme",
+      "title": "CodeCraft Academy Advanced Cybersecurity Professional Programme",
+      "modules": [
+        {
+          "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-1",
+          "title": "Professional Foundations",
+          "lessons": [
+            {
+              "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-1-lesson-1",
+              "title": "Ethics, Governance and Risk",
+              "status": "planned"
+            },
+            {
+              "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-1-lesson-2",
+              "title": "Security Architecture and Frameworks",
+              "status": "planned"
+            },
+            {
+              "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-1-lesson-3",
+              "title": "Enterprise Asset and Identity Management",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-2",
+          "title": "Technical Security",
+          "lessons": [
+            {
+              "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-2-lesson-1",
+              "title": "Network and Endpoint Defense",
+              "status": "planned"
+            },
+            {
+              "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-2-lesson-2",
+              "title": "Cloud and Application Security",
+              "status": "planned"
+            },
+            {
+              "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-2-lesson-3",
+              "title": "Vulnerability Assessment and Remediation",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-3",
+          "title": "Detection and Response",
+          "lessons": [
+            {
+              "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-3-lesson-1",
+              "title": "SOC and SIEM Operations",
+              "status": "planned"
+            },
+            {
+              "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-3-lesson-2",
+              "title": "Threat Hunting and Intelligence",
+              "status": "planned"
+            },
+            {
+              "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-3-lesson-3",
+              "title": "Incident Response and Digital Forensics",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-4",
+          "title": "Authorized Assessment",
+          "lessons": [
+            {
+              "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-4-lesson-1",
+              "title": "Penetration Testing Methodology",
+              "status": "planned"
+            },
+            {
+              "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-4-lesson-2",
+              "title": "Controlled Red-Team and Purple-Team Exercises",
+              "status": "planned"
+            },
+            {
+              "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-4-lesson-3",
+              "title": "Professional Reporting and Remediation",
+              "status": "planned"
+            }
+          ]
+        },
+        {
+          "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-5",
+          "title": "Capstone",
+          "lessons": [
+            {
+              "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-5-lesson-1",
+              "title": "Design a Secure Test Environment",
+              "status": "planned"
+            },
+            {
+              "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-5-lesson-2",
+              "title": "Conduct an Authorized Assessment",
+              "status": "planned"
+            },
+            {
+              "id": "codecraft-academy-advanced-cybersecurity-professional-programme-module-5-lesson-3",
+              "title": "Deliver an Integrated Security Improvement Plan",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

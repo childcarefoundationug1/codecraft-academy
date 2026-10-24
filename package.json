@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "javascript-obfuscator": "^5.9.0"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "start": "node server.js"
+  }
+}

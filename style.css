@@ -754,3 +754,1045 @@ section {
         transition: none;
     }
 }
+
+
+
+/* Global registration and country-currency preview */
+.global-registration {
+    padding: 70px 5%;
+    text-align: center;
+    scroll-margin-top: 90px;
+}
+
+.registration-card {
+    width: min(100%, 520px);
+    margin: 28px auto 0;
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: left;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.06);
+}
+
+.registration-card label {
+    font-weight: 600;
+}
+
+.registration-card input,
+.registration-card select {
+    width: 100%;
+    min-height: 46px;
+    padding: 11px 12px;
+    color: var(--text);
+    background: var(--background, #fff);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font: inherit;
+}
+
+.registration-card input:focus-visible,
+.registration-card select:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+}
+
+.currency-preview {
+    padding: 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-weight: 700;
+    overflow-wrap: anywhere;
+}
+
+.registration-note {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+#registration-message {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 480px) {
+    .registration-card {
+        padding: 18px;
+    }
+}
+
+
+/* CODECRAFT REGISTRATION POPUP */
+.global-registration {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 24px 16px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background: rgba(5, 12, 28, 0.88);
+    align-items: center;
+    justify-content: center;
+}
+
+.global-registration.is-open {
+    display: flex;
+}
+
+.global-registration .registration-card {
+    position: relative;
+    width: 100%;
+    max-width: 520px;
+    max-height: calc(100vh - 48px);
+    overflow-y: auto;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.registration-close {
+    position: fixed;
+    top: 12px;
+    right: 16px;
+    z-index: 10002;
+    width: 44px;
+    height: 44px;
+    border: 0;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #14213d;
+    font-size: 30px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+body.registration-popup-open {
+    overflow: hidden;
+}
+
+@media (max-width: 480px) {
+    .global-registration {
+        padding: 64px 12px 16px;
+        align-items: flex-start;
+    }
+
+    .global-registration .registration-card {
+        max-height: calc(100vh - 88px);
+    }
+}
+
+
+/* CODECRAFT ACADEMY — WELCOMING REGISTRATION DESIGN */
+.global-registration {
+    background: rgba(8, 15, 35, 0.88);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    padding: 20px;
+}
+
+.global-registration .registration-card {
+    background: #ffffff;
+    color: #172033;
+    border: 1px solid #e5eaf4;
+    border-radius: 22px;
+    padding: 30px 24px;
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    width: 100%;
+    max-width: 460px;
+    margin: auto;
+}
+
+.global-registration .registration-card h2,
+.global-registration h2 {
+    color: #172554;
+    font-size: clamp(25px, 6vw, 32px);
+    font-weight: 800;
+    line-height: 1.25;
+    margin: 0 0 12px;
+    text-align: center;
+}
+
+.global-registration .registration-card p {
+    color: #526078;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.global-registration .registration-card label {
+    display: block;
+    margin: 17px 0 7px;
+    color: #24324a;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.global-registration .registration-card input,
+.global-registration .registration-card select {
+    display: block;
+    width: 100%;
+    min-height: 49px;
+    padding: 12px 14px;
+    box-sizing: border-box;
+    border: 1px solid #cbd5e1;
+    border-radius: 11px;
+    background: #f8fafc;
+    color: #172033;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.global-registration .registration-card input:focus,
+.global-registration .registration-card select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.14);
+}
+
+.global-registration .currency-preview {
+    display: block;
+    margin-top: 16px;
+    padding: 14px;
+    border: 1px solid #bfdbfe;
+    border-radius: 12px;
+    background: #eff6ff;
+    color: #1e40af;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.global-registration .registration-card button[type="submit"] {
+    width: 100%;
+    min-height: 51px;
+    margin-top: 20px;
+    padding: 13px 18px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.22);
+}
+
+.global-registration .registration-card button[type="submit"]:hover {
+    filter: brightness(1.08);
+}
+
+.global-registration .registration-card button[type="submit"]:focus-visible,
+.registration-close:focus-visible {
+    outline: 3px solid #60a5fa;
+    outline-offset: 3px;
+}
+
+.global-registration .registration-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background: #eef2ff;
+    color: #1e293b;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .global-registration {
+        padding: 54px 12px 16px;
+    }
+
+    .global-registration .registration-card {
+        padding: 28px 18px 22px;
+        border-radius: 18px;
+    }
+
+    .global-registration .registration-card h2 {
+        padding: 0 15px;
+        font-size: 26px;
+    }
+
+    .global-registration .registration-card p {
+        font-size: 14px;
+    }
+}
+
+/* CODECRAFT: WELCOMING LEARNER REGISTRATION */
+.global-registration .registration-welcome {
+    margin: 12px 0 18px;
+    color: #475569;
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: center;
+}
+
+.global-registration .registration-benefits {
+    margin: 18px 0;
+    padding: 12px 15px;
+    border: 1px solid #dbeafe;
+    border-radius: 14px;
+    background: #f5f8ff;
+}
+
+.global-registration .registration-benefits p {
+    margin: 10px 0;
+    color: #24324a;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.global-registration .registration-benefits strong {
+    color: #1d4ed8;
+}
+
+.global-registration .registration-prompt {
+    margin: 16px 0;
+    color: #334155;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.global-registration .currency-preview:empty {
+    display: none;
+}
+
+/* CODECRAFT REGISTRATION: COMPACT, READABLE POPUP */
+.global-registration {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background: rgba(8, 15, 35, 0.78);
+}
+
+.global-registration.is-open {
+    display: flex;
+}
+
+.global-registration .registration-card {
+    width: 100%;
+    max-width: 430px;
+    max-height: calc(100dvh - 32px);
+    overflow-y: auto;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 24px 20px;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #172033;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
+}
+
+.global-registration > .tagline,
+.global-registration > h2,
+.global-registration > p {
+    display: none;
+}
+
+.global-registration .registration-card h2 {
+    margin-top: 0;
+    font-size: clamp(22px, 6vw, 28px);
+    line-height: 1.3;
+    text-align: center;
+}
+
+.global-registration .registration-card label {
+    display: block;
+    margin: 14px 0 6px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.global-registration .registration-card input,
+.global-registration .registration-card select {
+    width: 100%;
+    min-height: 46px;
+    box-sizing: border-box;
+    padding: 11px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    background: #f8fafc;
+    font-size: 16px;
+}
+
+.global-registration .registration-card button[type="submit"] {
+    width: 100%;
+    min-height: 48px;
+    margin-top: 18px;
+    border: 0;
+    border-radius: 11px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.global-registration .registration-close {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    z-index: 10002;
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #172033;
+    font-size: 26px;
+}
+
+@media (max-width: 480px) {
+    .global-registration {
+        align-items: center;
+        padding: 12px;
+    }
+
+    .global-registration .registration-card {
+        max-width: 390px;
+        max-height: calc(100dvh - 24px);
+        padding: 22px 16px;
+    }
+}
+
+
+/* CodeCraft Academy 32-course catalogue */
+.catalogue-grid { display: flex; flex-direction: column; gap: 34px; }
+.catalogue-level { width: 100%; }
+.course-level-title { margin: 0 0 18px; color: var(--primary); font-size: 1.45rem; }
+.catalogue-card { min-width: 0; overflow: hidden; }
+.catalogue-card h4 { font-size: 1.1rem; line-height: 1.4; margin: 12px 0; }
+.course-image { display: block; width: 100%; height: 190px; object-fit: cover; border-radius: 10px; margin: 0 0 18px; background: var(--border); }
+.course-image-unavailable { display: none; }
+.course-number { font-size: .72rem !important; letter-spacing: .08em; font-weight: 700; }
+.course-price { margin-top: 14px; }
+@media (max-width: 900px) { .catalogue-grid .course-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .catalogue-grid .course-grid { grid-template-columns: minmax(0, 1fr); } .course-image { height: 210px; } }
+
+/* CodeCraft Academy — Professional Lesson Reading Experience */
+.lesson-viewer {
+    width: min(100% - 24px, 1000px);
+    margin: 28px auto;
+    padding: clamp(20px, 4vw, 42px);
+    border: 1px solid var(--border-color, rgba(128, 140, 160, 0.22));
+    border-radius: 22px;
+    background: var(--card-bg, rgba(255, 255, 255, 0.035));
+    box-shadow: 0 16px 44px rgba(0, 0, 0, 0.08);
+    overflow-wrap: anywhere;
+}
+
+.lesson-viewer h2 {
+    margin: 0 0 18px;
+    line-height: 1.25;
+    letter-spacing: -0.025em;
+    font-size: clamp(1.65rem, 4vw, 2.35rem);
+}
+
+.lesson-viewer h3 {
+    margin: 32px 0 12px;
+    line-height: 1.35;
+    font-size: clamp(1.15rem, 3vw, 1.4rem);
+}
+
+.lesson-viewer p,
+.lesson-viewer li {
+    line-height: 1.85;
+    font-size: 1rem;
+}
+
+.lesson-viewer p {
+    margin: 12px 0 18px;
+}
+
+.lesson-viewer ul,
+.lesson-viewer ol {
+    padding-left: 25px;
+}
+
+.lesson-viewer li {
+    margin-bottom: 8px;
+}
+
+.lesson-content {
+    max-width: 78ch;
+    margin-inline: auto;
+}
+
+.lesson-content strong {
+    font-weight: 750;
+}
+
+.lesson-content pre {
+    max-width: 100%;
+    margin: 18px 0 22px;
+    padding: 20px;
+    border: 1px solid rgba(125, 145, 180, 0.24);
+    border-radius: 14px;
+    background: #101827;
+    color: #e7edf7;
+    line-height: 1.75;
+    font-size: 0.93rem;
+    overflow-x: auto;
+    white-space: pre;
+    tab-size: 4;
+}
+
+.lesson-content pre code {
+    font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+}
+
+.lesson-content code:not(pre code) {
+    padding: 2px 6px;
+    border-radius: 5px;
+    background: rgba(100, 116, 139, 0.16);
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: 0.92em;
+    overflow-wrap: anywhere;
+}
+
+.lesson-chapter {
+    margin: 28px 0;
+    padding: clamp(17px, 3vw, 25px);
+    border: 1px solid rgba(125, 145, 180, 0.22);
+    border-radius: 16px;
+    background: rgba(125, 145, 180, 0.055);
+}
+
+.lesson-kicker {
+    margin-bottom: 8px !important;
+    color: var(--primary-color, #65a8ff);
+    font-size: 0.78rem !important;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.lesson-callout {
+    margin: 20px 0;
+    padding: 17px 19px;
+    border-left: 4px solid var(--primary-color, #65a8ff);
+    border-radius: 0 12px 12px 0;
+    background: rgba(100, 150, 255, 0.09);
+}
+
+.lesson-callout p:last-child {
+    margin-bottom: 0;
+}
+
+.lesson-flow {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+.lesson-flow > * {
+    flex: 1 1 125px;
+    min-width: 0;
+    padding: 17px 12px;
+    border: 1px solid rgba(125, 145, 180, 0.28);
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.6;
+    background: rgba(125, 145, 180, 0.07);
+}
+
+.lesson-viewer button,
+.lesson-viewer a {
+    overflow-wrap: anywhere;
+}
+
+.lesson-viewer button {
+    min-height: 42px;
+}
+
+.lesson-viewer button:focus-visible,
+.lesson-viewer a:focus-visible,
+.lesson-viewer input:focus-visible {
+    outline: 3px solid var(--primary-color, #65a8ff);
+    outline-offset: 3px;
+}
+
+.lesson-viewer img,
+.lesson-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+@media (max-width: 600px) {
+    .lesson-viewer {
+        width: calc(100% - 20px);
+        margin: 18px auto;
+        padding: 18px 15px;
+        border-radius: 16px;
+    }
+
+    .lesson-content {
+        max-width: 100%;
+    }
+
+    .lesson-content pre {
+        padding: 14px;
+        font-size: 0.85rem;
+    }
+
+    .lesson-flow {
+        gap: 8px;
+    }
+
+    .lesson-flow > * {
+        flex-basis: 100px;
+        padding: 13px 9px;
+    }
+
+    .lesson-chapter {
+        padding: 16px 13px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .lesson-viewer *,
+    .lesson-viewer *::before,
+    .lesson-viewer *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* CodeCraft Academy: searchable, categorized course catalogue */
+.course-catalogue-controls {
+    max-width: 1100px;
+    margin: 30px auto 24px;
+    text-align: left;
+}
+
+.course-search-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.course-catalogue-search {
+    display: block;
+    width: 100%;
+    min-height: 48px;
+    padding: 12px 15px;
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    font: inherit;
+}
+
+.course-catalogue-search:focus-visible,
+.course-category-filter:focus-visible {
+    outline: 3px solid var(--primary);
+    outline-offset: 3px;
+}
+
+.course-category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 18px 0 12px;
+}
+
+.course-category-filter {
+    padding: 9px 14px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--text);
+    background: var(--surface);
+    font: inherit;
+    cursor: pointer;
+}
+
+.course-category-filter[aria-pressed="true"] {
+    color: var(--text);
+    border-color: var(--primary);
+    box-shadow: inset 0 0 0 1px var(--primary);
+}
+
+.course-category-label {
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 0 8px !important;
+    padding: 5px 9px;
+    border-radius: 6px;
+    color: var(--primary) !important;
+    background: rgba(56, 189, 248, 0.1);
+    font-size: 0.75rem !important;
+    font-weight: 700;
+}
+
+.course-filter-status {
+    margin: 10px 0 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+.course-no-results {
+    grid-column: 1 / -1;
+    padding: 24px;
+    color: var(--muted);
+    text-align: center;
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+}
+
+.catalogue-card[hidden],
+.catalogue-level[hidden] {
+    display: none !important;
+}
+
+@media (max-width: 600px) {
+    .course-catalogue-controls {
+        margin-top: 22px;
+    }
+
+    .course-category-filters {
+        gap: 8px;
+    }
+
+    .course-category-filter {
+        padding: 8px 11px;
+        font-size: 0.9rem;
+    }
+}
+
+
+/* Course textbook table of contents */
+.curriculum-toc {
+    margin: 24px 0;
+    padding: 18px;
+    border: 1px solid rgba(100, 116, 139, 0.25);
+    border-radius: 14px;
+    background: rgba(59, 130, 246, 0.05);
+}
+
+.curriculum-toc > h3 {
+    margin-top: 0;
+    line-height: 1.4;
+}
+
+.curriculum-toc-list {
+    margin: 0;
+    padding-left: 24px;
+}
+
+.curriculum-toc-list li {
+    margin: 9px 0;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+.curriculum-toc-module {
+    margin-top: 14px !important;
+    font-weight: 700;
+}
+
+.curriculum-toc-topic {
+    margin-left: 8px !important;
+    font-weight: 400;
+}
+
+.curriculum-toc a {
+    color: var(--link-color, #1d4ed8);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.curriculum-toc a:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: 3px;
+    border-radius: 3px;
+}
+
+.curriculum-module,
+.curriculum-lesson {
+    scroll-margin-top: 24px;
+}
+
+@media (max-width: 600px) {
+    .curriculum-toc {
+        padding: 15px 12px;
+    }
+}
+
+/* CodeCraft course curriculum layout */
+.course-curriculum {
+    width: min(100% - 32px, 1000px);
+    margin: 24px auto;
+    padding: clamp(18px, 4vw, 36px);
+    background: var(--card-bg, #ffffff);
+    border: 1px solid rgba(100, 116, 139, 0.22);
+    border-radius: 20px;
+    box-shadow: 0 12px 36px rgba(15, 23, 42, 0.08);
+}
+
+.course-curriculum[hidden],
+.learning-dashboard[hidden],
+#lesson-grid[hidden] {
+    display: none !important;
+}
+
+.course-curriculum > .tagline {
+    margin-top: 26px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+.course-curriculum > h2 {
+    margin: 8px 0 12px;
+    font-size: clamp(1.6rem, 5vw, 2.4rem);
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+}
+
+.curriculum-description {
+    max-width: 720px;
+    line-height: 1.8;
+}
+
+.curriculum-progress {
+    margin: 22px 0;
+    padding: 14px 16px;
+    background: rgba(59, 130, 246, 0.08);
+    border-radius: 12px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.curriculum-module {
+    margin: 24px 0;
+}
+
+.curriculum-module > h3 {
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgba(100, 116, 139, 0.2);
+    line-height: 1.4;
+}
+
+.curriculum-lesson {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    margin: 12px 0;
+    padding: 18px;
+    border: 1px solid rgba(100, 116, 139, 0.22);
+    border-radius: 14px;
+    background: var(--background, #ffffff);
+}
+
+.curriculum-lesson-details {
+    min-width: 0;
+    flex: 1;
+}
+
+.curriculum-lesson h4 {
+    margin: 0 0 8px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+.curriculum-lesson p {
+    margin: 0;
+    line-height: 1.65;
+}
+
+.curriculum-open-lesson {
+    flex-shrink: 0;
+}
+
+.curriculum-coming-soon {
+    margin: 20px 0;
+    padding: 18px;
+    border: 1px dashed rgba(100, 116, 139, 0.5);
+    border-radius: 12px;
+    line-height: 1.8;
+}
+
+.curriculum-back,
+.curriculum-home {
+    margin: 6px 8px 6px 0;
+}
+
+.catalogue-card[role="button"] {
+    cursor: pointer;
+}
+
+.catalogue-card[role="button"]:focus-visible {
+    outline: 3px solid #2563eb;
+    outline-offset: 4px;
+}
+
+@media (max-width: 600px) {
+    .course-curriculum {
+        width: calc(100% - 20px);
+        margin: 16px auto;
+        padding: 18px 14px;
+        border-radius: 14px;
+    }
+
+    .curriculum-lesson {
+        align-items: stretch;
+        flex-direction: column;
+        gap: 12px;
+        padding: 15px;
+    }
+
+    .curriculum-open-lesson {
+        width: 100%;
+        min-height: 44px;
+    }
+
+    .curriculum-back,
+    .curriculum-home {
+        min-height: 44px;
+    }
+}\n\n/* CODECRAFT_COURSE_DASHBOARD_CARDS_V1 */
+/* Scoped to lesson cards inside an opened course dashboard. */
+#course-curriculum .curriculum-module-list {
+    display: grid;
+    gap: 1.5rem;
+    width: 100%;
+    min-width: 0;
+}
+
+#course-curriculum .curriculum-module {
+    min-width: 0;
+    padding: clamp(1rem, 2.5vw, 1.5rem);
+    border: 1px solid rgba(100, 150, 190, 0.24);
+    border-radius: 1.25rem;
+    background: var(--card-bg, rgba(255, 255, 255, 0.04));
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+}
+
+#course-curriculum .curriculum-module > h3 {
+    margin: 0 0 1rem;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+}
+
+#course-curriculum .curriculum-module-lessons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 245px), 1fr));
+    gap: 1rem;
+    align-items: stretch;
+}
+
+#course-curriculum .curriculum-lesson {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    min-width: 0;
+    min-height: 100%;
+    padding: 1rem;
+    border: 1px solid rgba(100, 150, 190, 0.28);
+    border-radius: 1rem;
+    background: var(--surface, rgba(255, 255, 255, 0.035));
+    transition: transform 160ms ease, border-color 160ms ease,
+                box-shadow 160ms ease;
+}
+
+#course-curriculum .curriculum-lesson:hover {
+    transform: translateY(-2px);
+    border-color: var(--primary-color, #4b8dff);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.10);
+}
+
+#course-curriculum .curriculum-lesson-details {
+    flex: 1 1 auto;
+    min-width: 0;
+}
+
+#course-curriculum .curriculum-lesson-details h4 {
+    margin: 0 0 0.55rem;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+}
+
+#course-curriculum .curriculum-lesson-details p {
+    margin: 0;
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+    opacity: 0.86;
+}
+
+#course-curriculum .curriculum-open-lesson,
+#course-curriculum .curriculum-resume-lesson {
+    width: 100%;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+#course-curriculum .curriculum-toc {
+    margin-block: 1.25rem;
+}
+
+#course-curriculum .curriculum-toc-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    padding-inline-start: 1.25rem;
+}
+
+#course-curriculum .curriculum-progress {
+    margin-block: 0.75rem 1rem;
+    font-weight: 700;
+}
+
+#course-curriculum .curriculum-back,
+#course-curriculum .curriculum-home {
+    margin-block: 0.5rem 1rem;
+}
+
+@media (max-width: 560px) {
+    #course-curriculum .curriculum-module {
+        padding: 0.85rem;
+        border-radius: 0.9rem;
+    }
+
+    #course-curriculum .curriculum-module-lessons {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    #course-curriculum .curriculum-lesson {
+        padding: 0.9rem;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #course-curriculum .curriculum-lesson {
+        transition: none;
+    }
+
+    #course-curriculum .curriculum-lesson:hover {
+        transform: none;
+    }
+}
